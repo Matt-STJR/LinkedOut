@@ -9,9 +9,9 @@ USE linkedout_db;
 CREATE TABLE employers(
   id INTEGER(100) AUTO_INCREMENT NOT NULL,
   name VARCHAR(200),
-  about TEXT(500)
+  about TEXT(500),
   address VARCHAR(250),
-  phone INTEGER(20),
+  phone VARCHAR(20),
   email VARCHAR (100),
   pwd VARCHAR(50),
   PRIMARY KEY (id)
@@ -33,19 +33,19 @@ CREATE TABLE employees(
   lastName VARCHAR(50),
   email VARCHAR (100),
   pwd VARCHAR(50),
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
   FOREIGN KEY (job_id) REFERENCES jobs(id)
 );
 
 
 /* Create new table for job ads with a primary key that auto-increments, and multiple Foreign Keys */
 CREATE TABLE jobAds(
-  id INTEGER(10) NOT NULL,
+  id INTEGER(10) AUTO_INCREMENT NOT NULL,
   job_id INTEGER(10),
-  emp_id INTEGER(100) NOT NULL,
+  emp_id INTEGER(100),
   status BOOLEAN,
-  PRIMARY KEY (id)
-  FOREIGN KEY (job_id) REFERENCES jobs(id)
+  PRIMARY KEY (id),
+  FOREIGN KEY (job_id) REFERENCES jobs(id),
   FOREIGN KEY (emp_id) REFERENCES employers(id)
 );
 
