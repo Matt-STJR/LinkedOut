@@ -38,7 +38,8 @@ CREATE TABLE employees(
 );
 
 
-/* Create new table for job ads with a primary key that auto-increments, and multiple Foreign Keys */
+/* Create new table for job ads with a primary key that auto-increments and multiple Foreign Keys */
+
 CREATE TABLE jobAds(
   id INTEGER(10) AUTO_INCREMENT NOT NULL,
   job_id INTEGER(10),
