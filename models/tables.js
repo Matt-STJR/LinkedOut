@@ -6,6 +6,7 @@ module.exports = function(sequelize, DataTypes) {
     },
     about: {
       type: DataTypes.TEXT,
+      defaultValue: "Edit your about, so we know more about you.",
     },
     address: {
       type: DataTypes.STRING,
