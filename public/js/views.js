@@ -14,7 +14,6 @@ $(document).ready(function() {
     var signPasswordConfirm = $("#signPassConfirm");
 
     //User page
-    // var userImg = $("userImg"); FD
     var userCompany = $("#userCompany");
     var userAbout = $("#userAbout");
     var joblistContainer = $("#joblistContainer");
@@ -36,7 +35,6 @@ $(document).ready(function() {
     $(document).on("click", "signUpBtn", redirectSignUp);
     $(document).on("click", "createBtn", createAccount);
     $(document).on("click", "homebtn", toHome);
-    // $(document).on("click", "EditImg", EditImg);  FD
     $(document).on("click", "EditAbout", EditAbout);
     $(document).on("click", "listingView", listingView);
     $(document).on("click", "listingAdd", listingAdd);
@@ -45,58 +43,7 @@ $(document).ready(function() {
     $(document).on("click", "skillAdd", skillAdd);
     $(document).on("click", "newJobAdd", newJobAdd);
 
-    //Arrays for joblistings and employees
-    var userid = [];
-    var joblisting = [];
-    var employeeConfirmed = [];
-    var employeeNotConfirmed = [];
-    //initialising
-    toHome()
-    /*
-    All the log in/Sign up stuff
-    */
-
-    // This function is for creating the home page and/or redirecting from either the view joblisting or create joblisting, back to the user home page
-    function toHome(){
-        //pull user id (week14 homework)
-        $.ajax({
-            method: "GET",
-            url: "/api/" + id,
-            data: user
-          }).then(createPage)
-    };
-
-    function createPage(){
-        //handlebars
-    };
-
-    function EditAbout(){
-
-    };
-
-    function listingView(){
-
-    };
-
-    function listingAdd(){
-
-    };
-
-    function employeeDelete(){
-
-    };
-
-    function employeeAdd(){
-
-    };
-
-    function skillAdd(){
-
-    };
-
-    function newJobAdd(){
-
-    };
+    
 
   });
   

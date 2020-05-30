@@ -30,13 +30,13 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   // Creating a custom method for our User model. This will check if an unhashed password entered by the user can be compared to the hashed password stored in our database
-  employers.prototype.validPassword = function(password) {
-    return bcrypt.compareSync(password, this.password);
+  employers.prototype.validPassword = function(pwd) {
+    return bcrypt.compareSync(pwd, this.pwd);
   };
   // Hooks are automatic methods that run during various phases of the User Model lifecycle
   // In this case, before a User is created, we will automatically hash their password
-  employers.addHook("beforeCreate", function(user) {
-    user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
+  employers.addHook("beforeCreate", function(employers) {
+    employers.pwd = bcrypt.hashSync(employers.pwd, bcrypt.genSaltSync(10), null);
   });
 
   var jobs = sequelize.define("jobs", {
@@ -99,13 +99,13 @@ module.exports = function(sequelize, DataTypes) {
   employees.belongsTo(employers, {foreignKey: 'emp_id'});
 
   // Creating a custom method for our User model. This will check if an unhashed password entered by the user can be compared to the hashed password stored in our database
-  employees.prototype.validPassword = function(password) {
-    return bcrypt.compareSync(password, this.password);
+  employees.prototype.validPassword = function(pwd) {
+    return bcrypt.compareSync(pwd, this.pwd);
   };
   // Hooks are automatic methods that run during various phases of the User Model lifecycle
   // In this case, before a User is created, we will automatically hash their password
-  employees.addHook("beforeCreate", function(user) {
-    user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
+  employees.addHook("beforeCreate", function(employees) {
+    employees.pwd = bcrypt.hashSync(employees.pwd, bcrypt.genSaltSync(10), null);
   });
   
   return employers, jobAds, employees, jobs
