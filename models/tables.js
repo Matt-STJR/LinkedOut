@@ -56,6 +56,10 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.INTEGER, //
       allowNull: false,
     },
+    job_id: {
+      type: DataTypes.INTEGER, //
+      allowNull: false,
+    },
     status: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
