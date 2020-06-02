@@ -1,35 +1,47 @@
-$(document).ready(() => {
+$(document).ready(function() {
   // Getting references to our form and input
-  const signUpForm = $("form.signup");
-  const emailInput = $("input#email-input");
-  const passwordInput = $("input#password-input");
+  var signUpForm = $("#signup-form");
+  var nameInput = $("#inputBusinessName");
+  var addressInput = $("#inputBusinessAddress");
+  var phoneInput = $("#inputPhoneNumber");
+  var emailInput = $("#inputEmail");
+  var pwdInput = $("#inputPassword");
 
   // When the signup button is clicked, we validate the email and password are not blank
-  signUpForm.on("submit", event => {
+  signUpForm.on("submit", function(event) {
     event.preventDefault();
-    const userData = {
+    var userData = {
+      name: nameInput.val().trim(),
+      address: addressInput.val().trim(),
+      phone: phoneInput.val().trim(),
       email: emailInput.val().trim(),
-      password: passwordInput.val().trim()
+      pwd: pwdInput.val().trim()
     };
 
-    if (!userData.email || !userData.password) {
+    if (!userData.name || !userData.address || !userData.phone || !userData.email || !userData.pwd ) {
       return;
     }
     // If we have an email and password, run the signUpUser function
-    signUpUser(userData.email, userData.password);
+    signUpUser(userData.name, userData.address, userData.phone, userData.email, userData.pwd,);
+    nameInput.val("");
+    addressInput.val("");
+    phoneInput.val("");
     emailInput.val("");
-    passwordInput.val("");
+    pwdInput.val("");
   });
 
   // Does a post to the signup route. If successful, we are redirected to the members page
   // Otherwise we log any errors
-  function signUpUser(email, password) {
-    $.post("/api/signup", {
+  function signUpUser(name, address, phone, email, pwd) {
+    $.post("/api/LinkedOut/signup", {
+      name: name,
+      address: address,
+      phone: phone,
       email: email,
-      password: password
+      pwd: pwd
     })
-      .then(() => {
-        window.location.replace("/members");
+      .then(function(data) {
+        window.location.replace("/LinkedOut/home");
         // If there's an error, handle it by throwing up a bootstrap alert
       })
       .catch(handleLoginErr);
