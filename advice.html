@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>LinkedOut</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom styles -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">LinkedOut</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Job Ads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contractors</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Advice</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="masthead-half">
+    <div class="container h-100">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto v-center">
+        <h1 class="page-title text-center">Advice</h5>
+      </div>
+    </div>
+  </main>
+  <section class="job-selection">
+    <form action="/action_page.php">
+    <label for="cars">Select a job title:</label>
+    <select name="cars" id="cars">
+      <optgroup label="Swedish Cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+      </optgroup>
+      </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
+  <section class="chart-container">
+    <canvas id="myChart"></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020'],
+        datasets: [{
+            label: 'Weekly Pay',
+            data: [1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000],
+            backgroundColor: 'rgba(0, 0, 0, 0.75)', 
+            borderColor: 'rgba(255, 159, 64, 1)',
+            borderWidth: 3,
+            hoverBackgroundColor:"#000"
+        }]
+    },
+    options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    },
+    title: {
+      display: true,
+      text: 'Weekly Pay',
+      fontColor: "#333",
+      fontSize: 20,
+      padding: 20
+    },
+    legend: {
+      display: false,
+    }
+  }
+});
+
+
+</script>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/job-ads.js"></script>
+
+</body>
+
+</html>
