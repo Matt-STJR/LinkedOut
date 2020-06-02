@@ -38,6 +38,7 @@ module.exports = function(app) {
     } else {
       res.json({
         name: req.employer.name,
+        about: req.employer.about,
         address: req.employer.address,
         phone: req.employer.phone,
         email: req.employer.email,
@@ -45,19 +46,14 @@ module.exports = function(app) {
       });
     }
   });
-  // Route for getting all the users to be used client side
+  // Route for getting a list of all the jobAds for the user to be used client side
   app.get("/api/LinkedOut/user_data", function(req, res) {
 
     if (!req.employer) {
       res.json({});
     } else {
       res.json({
-        name: req.employer.name,
-        about: req.employer.about,
-        address: req.employer.address,
-        phone: req.employer.phone,
-        email: req.employer.email,
-        id: req.employer.id
+        
       });
     }
   });
