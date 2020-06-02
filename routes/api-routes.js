@@ -47,15 +47,32 @@ module.exports = function(app) {
     }
   });
   // Route for getting a list of all the jobAds for the user to be used client side
-  app.get("/api/LinkedOut/:id", function(req, res) {
+  app.get("/api/LinkedOut/jobAds/:id", function(req, res) {
     jobAds.findAll({
       where: {
-        emp_id: req.params.id
+        emp_id: req.params.id,
+        status: true
       }
     }).then(function(result) {
       return res.json(result);
     });
   });
+
+  app.get("api/LinkedOut/jobAds/info", function(req, res) {
+    employers.findAll({
+      where: {
+        id: req.JobAds.emp_id,
+      }
+    }),
+    jobs.findAll({
+      where: {
+        id: req.JobAds.job_id,
+      }
+    }).then(function(result) {
+      return res.json(result);
+    });
+  });
+
   // Route for getting a list of all the employees that are compatible with the JobAd
   app.get("/api/LinkedOut/employeelist", function(req, res) {
     employees.findAll({
