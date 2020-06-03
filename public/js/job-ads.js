@@ -1,6 +1,13 @@
 $(document).ready(function() {
-    
-    getJobAds()
+    getUser()  
+
+    function getUser(){
+        $.get("api/LinkedOut/user_data").then(function(data){
+            employer = data,
+            employerName = employer.name
+            getJobAds(employer)
+        });
+    };
 
     function getJobAds(){
         $.get("api/LinkedOut/jobAds/:id").then(function(data){
@@ -18,11 +25,11 @@ $(document).ready(function() {
         {   
             currentResult = array[i];
             //Assign the response results into title, author, publish date, link, image
-            employer = currentResult.employers.id;
+            employerName = employers.name
             jobName = currentResult.jobs.id;
             
             //Create HTML DOM elements for each assigned response result
-            var employerDisplay = $("<p>").text(employer).attr("class", "card-title");
+            var employerDisplay = $("<p>").text(employerName).attr("class", "card-title");
             var jobNameDisplay = $("<p>").text(jobName).attr("class", "card-bottom card-text");
             
 
