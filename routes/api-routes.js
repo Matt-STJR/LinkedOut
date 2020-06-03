@@ -5,12 +5,12 @@ var passport = require("../config/passport");
 module.exports = function(app) {
  
   app.post("/api/LinkedOut/login", passport.authenticate("local"), function(req, res) {
-    res.json(req.employer);
+    res.json(req.employers);
   });
 
   // Route for signing up a user.
   app.post("/api/LinkedOut/signup", function(req, res) {
-    db.employer.create({
+    db.employers.create({
       name: req.body.name,
       address: req.body.address,
       phone: req.body.phone,
@@ -33,16 +33,16 @@ module.exports = function(app) {
 
   // Route for getting the data about our user to be used client side
   app.get("/api/LinkedOut/user_data", function(req, res) {
-    if (!req.employer) {
+    if (!req.employers) {
       res.json({});
     } else {
       res.json({
-        name: req.employer.name,
-        about: req.employer.about,
-        address: req.employer.address,
-        phone: req.employer.phone,
-        email: req.employer.email,
-        id: req.employer.id
+        name: req.employers.name,
+        about: req.employers.about,
+        address: req.employers.address,
+        phone: req.employers.phone,
+        email: req.employers.email,
+        id: req.employers.id
       });
     }
   });
@@ -59,12 +59,7 @@ module.exports = function(app) {
   });
 
   app.get("api/LinkedOut/jobAds/info", function(req, res) {
-    employers.findAll({
-      where: {
-        id: req.JobAds.emp_id,
-      }
-    }),
-    jobs.findAll({
+    jobs.findOne({
       where: {
         id: req.JobAds.job_id,
       }

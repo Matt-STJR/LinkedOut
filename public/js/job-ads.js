@@ -1,30 +1,36 @@
-$(document).ready(function() {
-    
-    getJobAds()
+getUser()  
 
-    function getJobAds(){
-        $.get("api/LinkedOut/jobAds/:id").then(function(data){
-            jobAds = data,
-            createJobAds(jobAds)
-        });
-    };
+function getUser(){
+    $.get("api/LinkedOut/user_data").then(function(data){
+        employer = data,
+        employerName = employer.name
+        getJobAds(employer)
+    });
+};
 
-    function createJobAds(){
-        $.get("api/LinkedOut/jobAds/info").then(function(data){
+function getJobAds(){
+    $.get("api/LinkedOut/jobAds/:id").then(function(data){
+        jobAds = data,
+        createJobAds(jobAds)
+    });
+};
+
+function createJobAds(){
+    $.get("api/LinkedOut/jobAds/info").then(function(data){
 
         var array = data;
-        //Loop to iterate through the latest articles
+        //Loop to iterate through the job ads
         for (var i=0;i<15;i++)
         {   
             currentResult = array[i];
-            //Assign the response results into title, author, publish date, link, image
-            employer = currentResult.employers.id;
+            //Assign the response results into employer name and the job name/type
+            employerName = employers.name
             jobName = currentResult.jobs.id;
             
             //Create HTML DOM elements for each assigned response result
-            var employerDisplay = $("<p>").text(employer).attr("class", "card-title");
+            var employerDisplay = $("<p>").text(employerName).attr("class", "card-title");
             var jobNameDisplay = $("<p>").text(jobName).attr("class", "card-bottom card-text");
-            
+                
 
             //Create a parent card element for the article
             var cardDiv = $("<div>").attr({
@@ -44,10 +50,10 @@ $(document).ready(function() {
             //1. Append all text items to the card-body and append the card-body to the card
             cardBody.append(employerDisplay);
             cardBody.append(jobNameDisplay);
-            
+                
 
             //2. Append the parent card to the HTML page
             $(".card-deck").append(cardDiv);
-        }
-    };
-});
+        };
+    });
+};
