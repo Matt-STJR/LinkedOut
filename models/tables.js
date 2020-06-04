@@ -113,6 +113,5 @@ module.exports = function(sequelize, DataTypes) {
     employees.pwd = bcrypt.hashSync(employees.pwd, bcrypt.genSaltSync(10), null);
   });
   
-  return employers, jobAds, employees, jobs
 };
 module.exports = employers, jobAds, employees, jobs
