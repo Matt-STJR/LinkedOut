@@ -13,7 +13,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   <!-- Custom styles -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link href="stylesheets/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -51,14 +51,31 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto v-center">
         <h1 class="page-title text-center">Advice</h5>
         <hr class="my-4">
-          <form action="/action_page.php" class="col-sm-12">
+          <form action="/action_page.php" class="col-sm-12" id="job-view">
             <div class="row">
-            <label for="cars" class="col-sm-2 custom-dropdown-label">View:</label>
-            <select name="cars" id="cars" class="col-sm-6 custom-dropdown">
-              <optgroup label="Select one option:">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-              </optgroup>
+            <label for="jobs" class="col-sm-2 custom-dropdown-label">View:</label>
+            <select name="jobs" id="dd" class="col-sm-6 custom-dropdown">
+            <option value="" selected="selected">Select a job</option>
+                <option value="dps1">Software Architect</option>
+                <option value="dps2">Software Engineer</option>
+                <option value="dps3">Software Developer</option>
+                <option value="dps4">Systems Engineer</option>
+                <option value="dps5">Software Systems Engineer</option>
+                <option value="dps6">Systems Software Designer</option>
+                <option value="dps7">Systems Software Specialist</option>
+                <option value="dps8">Internet Application Developer</option>
+                <option value="dps9">Internet Developer</option>
+                <option value="dps10">Intranet Developer</option>
+                <option value="dps11">Web Content Developer</option>
+                <option value="dps12">Web Designer</option>
+                <option value="dps13">Applications Programmer</option>
+                <option value="dps14">Computer Language Coder</option>
+                <option value="dps15">Computer Programmer</option>
+                <option value="dps16">Junior Software Developer</option>
+                <option value="dps17">Mainframe Programmer</option>
+                <option value="dps18">Systems Programmer</option>
+                <option value="dps19">Applications Analyst</option>
+                <option value="dps20">Computer Systems Analyst</option>
             </select>
             <div class="col-sm-4">
               <input type="submit" class="btn btn-lg btn-custom-main btn-block text-uppercase" value="Go">
@@ -71,45 +88,6 @@
   </main>
   <section class="chart-container">
     <canvas id="myChart"></canvas>
-  </section>
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020'],
-        datasets: [{
-            label: 'Weekly Pay',
-            data: [1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000],
-            backgroundColor: 'rgba(0, 0, 0, 0.75)', 
-            borderColor: 'rgba(255, 159, 64, 1)',
-            borderWidth: 3,
-            hoverBackgroundColor:"#000"
-        }]
-    },
-    options: {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero: true
-        }
-      }]
-    },
-    title: {
-      display: true,
-      text: 'Weekly Pay',
-      fontColor: "#333",
-      fontSize: 20,
-      padding: 20
-    },
-    legend: {
-      display: false,
-    }
-  }
-});
-
-
-</script>
   </section>
   
   <script type="text/javascript" src="js/advice.js"></script>
