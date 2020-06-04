@@ -1,526 +1,528 @@
 
 /* Insert entries into employers table */
 
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Abafix','Top hospital in rural Victoria ','73 Frouds Road, MALLACOOTA, VIC, 3892','(03) 5303 9945','Abafix@orgmail.com','ab180003', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Albent','Commercial and Institutional Building Construction','77 Chatsworth Drive, BURSWOOD, WA, 6100','(08) 9350 2576','Albent@orgmail.com','al190822', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Antigen','Services for the Elderly and Persons with Disabilities','74 Walters Street, WARRENBAYNE, VIC, 3670','(03) 5378 4638','Antigen@orgmail.com','an508680', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Archend ','Pesticide and Other Agricultural Chemical Manufacturing','68 Ocean Street, MILLERS POINT, NSW, 2000','(02) 8361 3759','Archend @orgmail.com','ar878957', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Bellity','Adhesive Manufacturing','80 Moores Drive, PERTH, WA, 6000','(08) 9268 8559','Bellity@orgmail.com','be537674', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Bovist','Document Preparation Services','46 Point Walter Road, PALMYRA DC, WA, 6157','(08) 9481 3265','Bovist@orgmail.com','bo605984', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Calcicious','Exterminating and Pest Control Services','60 Flax Court, TALGARNO, VIC, 3691','(03) 5359 5444','Calcicious@orgmail.com','ca640059', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Canosis','Fortune 500 casino and gambling chain ','20 Edgecliff Road, ZETLAND, NSW 2017','(02) 9829 6221','Canosis@orgmail.com','ca185032', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Capise ','Security Systems Services','85 Gloucester Avenue, REGENCY PARK BC, SA, 5010','(08) 8381 2395','Capise @orgmail.com','ca976931', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Cedize','Computer Systems Design and Related Services','72 Edward Bennett Drive, PEMULWUY, NSW, 2145','(02) 8830 3931','Cedize@orgmail.com','ce721771', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Centitri','Refrigerated Warehousing and Storage','82 Ocean Street, HAYMARKET, NSW, 2000','(02) 8976 7487','Centitri@orgmail.com','ce930654', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Cervore','Professional Employer Organizations','31 Lewin Street, QUANDARY, NSW, 2665','(02) 6121 5180','Cervore@orgmail.com','ce391991', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Combu','Wired Telecommunications Carriers','35 Girvan Grove, SPECIMEN HILL, VIC, 3555, (03) 5327 0384','(03) 9887 6499','Combu@orgmail.com','co212099', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Contrare','Public Relations Agencies','17 Glendonbrook Road, DUNVILLE LOOP, NSW, 2849','(02) 4038 9209','Contrare@orgmail.com','co548732', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Diamia','Building Inspection Services in regional NSW','86 Oak Street, ACACIA CREEK, NSW, 2476','(02) 6717 3214','Diamia@orgmail.com','di626790', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Difent','Media Buying Agencies','40 Commercial Street, SPRINGFIELD, VIC, 3434','(03) 8008 9453','Difent@orgmail.com','di831272', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Divafy','Display Advertising Services','13 Saggers Road, JERDACUTTUP, WA, 6346','(08) 9014 5692','Divafy@orgmail.com','di686283', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Dizio','Management Consulting Services','95 Frouds Road, COBUNGRA, VIC, 3898','(03) 5352 9849','Dizio@orgmail.com','di390848', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Esosis','Satellite Telecommunications','32 Mt Berryman Road, PINELANDS, QLD, 4355','(07) 4541 3761','Esosis@orgmail.com','es507191', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Exill','Employment Placement Agency','5 Battery Drive, Manuka, ACT, 2603','(02) 6163 4611','Exill@orgmail.com','ex985290', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Favu','Transport services','22 Trelawney Street, CENTENNIAL PARK, NSW, 2021','(02) 9739 1822','Favu@orgmail.com','fa897060', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Gezio','Community Food Services','91 Horsington Street, BURNLEY NORTH, VIC, 3121','(03) 9887 6418','Gezio@orgmail.com','ge651508', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Gradinoodle','Investigation, Guard, and Armored Car Services','54 Thyme Avenue, GLENLYON, QLD, 4380','(07) 4568 4676','Gradinoodle@orgmail.com','gr412293', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Insulible','Telephone Call Centers','21 Decca Road, VIRGINIA, NT, 0835','(08) 8967 1978','Insulible@orgmail.com','in537517', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Kayor','Synthetic Dye and Pigment Manufacturing','36 Parkes Road, MELBOURNE, VIC, 3000','(03) 8122 0714','Kayor@orgmail.com','ka469758', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Kilane','Mortgage and Nonmortgage Loan Brokers','51  Grandis Road, CORANGULA, NSW, 2440','(02) 6787 7693','Kilane@orgmail.com','ki596964', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Laudize','Pesticide and Other Agricultural Chemical Manufacturing','76 Treasure Island Avenue, BURLEIGH BC, QLD, 4220','(07) 5662 4098','Laudize@orgmail.com','la911591', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Lupent','Media Representatives','36 Peninsula Drive, LOFTUS, NSW, 2232','(02) 4244 9674','Lupent@orgmail.com','lu255839', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Manulith','Landscaping Services','59 Pelican Road, CHRISTMAS ISLAND, WA, 6798','(08) 9010 9428','Manulith@orgmail.com','ma660813', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Meelane','Vocational Rehabilitation Services','46 Yangan Drive, GARTHOWEN, NSW, 2345','(02) 6730 2886','Meelane@orgmail.com','me686080', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Midose','Business Service Centers','33 Quayside Vista, CANBERRA, ACT, 2601','(02) 6147 3002','Midose@orgmail.com','mi114408', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Minix','Professional and Management Development Training','62 Jacabina Court, GWYNNEVILLE, NSW, 2500','(02) 4220 4712','Minix@orgmail.com','mi878317', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Mistindu','Veterinary Services','58 Mackie Street, NAROOMA, NSW, 2546','(02) 4074 7032','Mistindu@orgmail.com','mi456999', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Omniveo','Artificial and Synthetic Fibers and Filaments Manufacturing','85 Chatsworth Drive, LATHLAIN, WA, 6100','(08) 9377 9601','Omniveo@orgmail.com','om834009', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Paleombee','Power and Communication Line and Related Structures Construction','29 Pelican Road, GLEBE, TAS, 7000','(03) 6223 7253','Paleombee@orgmail.com','pa280738', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Pixonoodle','Chain of Fitness and Recreational Sports Centers','5 Grandis Road, GEORGES CREEK, NSW, 2440','(02) 6767 2979','Pixonoodle@orgmail.com','pi559385', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Plambu','Iron Ore Mining','65 Girvan Grove, BENDIGO, VIC, 3550','(03) 5311 1165','Plambu@orgmail.com','pl929410', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Polyor','Couriers and Express Delivery Services','87 Tennyson Road, BANKSTOWN, NSW, 2200','(02) 9782 9432','Polyor@orgmail.com','po640351', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Quasita','Pharmaceutical and Medicine Manufacturing','24 Moruya Road, BALLALABA, NSW, 2622','(02) 6192 0013','Quasita@orgmail.com','qu354047', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Retri','Environmental Consulting Services','54 Henry Street, GROVEDALE, VIC, 3216','(03) 5307 8743','Retri@orgmail.com','re917181', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Seminix','Paint and Coating Manufacturing','67 Woodlands Avenue, PARRAMATTA WESTFIELD, NSW, 2150','(02) 9431 3390','Seminix@orgmail.com','se585520', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Superic ','Provides Nondepository Credit Intermediation services','45 Begley Street, ADELAIDE BC, SA, 5000','(08) 8275 7855','Superic @orgmail.com','su133371', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Supoid','Chain of Outdoor Power Equipment Stores','15 Ocean Street, SYDNEY SOUTH, NSW, 2000','(02) 8583 7503','Supoid@orgmail.com','su233646', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Suprambo','Temporary Help Services','77 Watson Street, BARNADOWN, VIC, 3557','(03) 5319 0561','Suprambo@orgmail.com','su263349', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Surose','Fertilizer Manufacturing','45 Seiferts Rd, BARMOYA, QLD, 4703','(07) 4987 1111','Surose@orgmail.com','su635989', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Syore','Promoters of Performing Arts, Sports, and Similar Events with Facilities','63 Oak Street, TULLYMORGAN, NSW, 2463','(02) 6771 8803','Syore@orgmail.com','sy229470', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Tadoo','Medical and Diagnostic Laboratories','77 Ross Smith Avenue, DARWIN, NT, 0800','(08) 8926 8155','Tadoo@orgmail.com','ta319283', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Transore','Top hotel chain in regional NSW','72 Elizabeth Street, Sandy Creek, QLD 4570','(07) 5359 3172','Transore@orgmail.com','tr128589', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Yado','The largest Oil and Gas Extraction firm in the Asia-Pacific','13 McGregor Street, TUGGERANONG, ACT, 2900','(02) 6188 3805','Yado@orgmail.com','ya138741', now(), now());
-INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Zootri','Direct Mail Advertising Services','21 Grandis Road, WILLAWARRIN, 2440','(02) 6765 0304','Zootri@orgmail.com','zo903355', now(), now());
+
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Abafix','Top hospital in rural Victoria ','73 Frouds Road, MALLACOOTA, VIC, 3892','(03) 5303 9945','Abafix@orgmail.com','ab180003',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Albent','Commercial and Institutional Building Construction','77 Chatsworth Drive, BURSWOOD, WA, 6100','(08) 9350 2576','Albent@orgmail.com','al190822',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Antigen','Services for the Elderly and Persons with Disabilities','74 Walters Street, WARRENBAYNE, VIC, 3670','(03) 5378 4638','Antigen@orgmail.com','an508680',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Archend ','Pesticide and Other Agricultural Chemical Manufacturing','68 Ocean Street, MILLERS POINT, NSW, 2000','(02) 8361 3759','Archend @orgmail.com','ar878957',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Bellity','Adhesive Manufacturing','80 Moores Drive, PERTH, WA, 6000','(08) 9268 8559','Bellity@orgmail.com','be537674',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Bovist','Document Preparation Services','46 Point Walter Road, PALMYRA DC, WA, 6157','(08) 9481 3265','Bovist@orgmail.com','bo605984',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Calcicious','Exterminating and Pest Control Services','60 Flax Court, TALGARNO, VIC, 3691','(03) 5359 5444','Calcicious@orgmail.com','ca640059',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Canosis','Fortune 500 casino and gambling chain ','20 Edgecliff Road, ZETLAND, NSW 2017','(02) 9829 6221','Canosis@orgmail.com','ca185032',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Capise ','Security Systems Services','85 Gloucester Avenue, REGENCY PARK BC, SA, 5010','(08) 8381 2395','Capise @orgmail.com','ca976931',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Cedize','Computer Systems Design and Related Services','72 Edward Bennett Drive, PEMULWUY, NSW, 2145','(02) 8830 3931','Cedize@orgmail.com','ce721771',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Centitri','Refrigerated Warehousing and Storage','82 Ocean Street, HAYMARKET, NSW, 2000','(02) 8976 7487','Centitri@orgmail.com','ce930654',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Cervore','Professional Employer Organizations','31 Lewin Street, QUANDARY, NSW, 2665','(02) 6121 5180','Cervore@orgmail.com','ce391991',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Combu','Wired Telecommunications Carriers','35 Girvan Grove, SPECIMEN HILL, VIC, 3555, (03) 5327 0384','(03) 9887 6499','Combu@orgmail.com','co212099',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Contrare','Public Relations Agencies','17 Glendonbrook Road, DUNVILLE LOOP, NSW, 2849','(02) 4038 9209','Contrare@orgmail.com','co548732',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Diamia','Building Inspection Services in regional NSW','86 Oak Street, ACACIA CREEK, NSW, 2476','(02) 6717 3214','Diamia@orgmail.com','di626790',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Difent','Media Buying Agencies','40 Commercial Street, SPRINGFIELD, VIC, 3434','(03) 8008 9453','Difent@orgmail.com','di831272',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Divafy','Display Advertising Services','13 Saggers Road, JERDACUTTUP, WA, 6346','(08) 9014 5692','Divafy@orgmail.com','di686283',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Dizio','Management Consulting Services','95 Frouds Road, COBUNGRA, VIC, 3898','(03) 5352 9849','Dizio@orgmail.com','di390848',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Esosis','Satellite Telecommunications','32 Mt Berryman Road, PINELANDS, QLD, 4355','(07) 4541 3761','Esosis@orgmail.com','es507191',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Exill','Employment Placement Agency','5 Battery Drive, Manuka, ACT, 2603','(02) 6163 4611','Exill@orgmail.com','ex985290',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Favu','Transport services','22 Trelawney Street, CENTENNIAL PARK, NSW, 2021','(02) 9739 1822','Favu@orgmail.com','fa897060',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Gezio','Community Food Services','91 Horsington Street, BURNLEY NORTH, VIC, 3121','(03) 9887 6418','Gezio@orgmail.com','ge651508',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Gradinoodle','Investigation, Guard, and Armored Car Services','54 Thyme Avenue, GLENLYON, QLD, 4380','(07) 4568 4676','Gradinoodle@orgmail.com','gr412293',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Insulible','Telephone Call Centers','21 Decca Road, VIRGINIA, NT, 0835','(08) 8967 1978','Insulible@orgmail.com','in537517',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Kayor','Synthetic Dye and Pigment Manufacturing','36 Parkes Road, MELBOURNE, VIC, 3000','(03) 8122 0714','Kayor@orgmail.com','ka469758',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Kilane','Mortgage and Nonmortgage Loan Brokers','51  Grandis Road, CORANGULA, NSW, 2440','(02) 6787 7693','Kilane@orgmail.com','ki596964',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Laudize','Pesticide and Other Agricultural Chemical Manufacturing','76 Treasure Island Avenue, BURLEIGH BC, QLD, 4220','(07) 5662 4098','Laudize@orgmail.com','la911591',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Lupent','Media Representatives','36 Peninsula Drive, LOFTUS, NSW, 2232','(02) 4244 9674','Lupent@orgmail.com','lu255839',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Manulith','Landscaping Services','59 Pelican Road, CHRISTMAS ISLAND, WA, 6798','(08) 9010 9428','Manulith@orgmail.com','ma660813',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Meelane','Vocational Rehabilitation Services','46 Yangan Drive, GARTHOWEN, NSW, 2345','(02) 6730 2886','Meelane@orgmail.com','me686080',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Midose','Business Service Centers','33 Quayside Vista, CANBERRA, ACT, 2601','(02) 6147 3002','Midose@orgmail.com','mi114408',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Minix','Professional and Management Development Training','62 Jacabina Court, GWYNNEVILLE, NSW, 2500','(02) 4220 4712','Minix@orgmail.com','mi878317',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Mistindu','Veterinary Services','58 Mackie Street, NAROOMA, NSW, 2546','(02) 4074 7032','Mistindu@orgmail.com','mi456999',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Omniveo','Artificial and Synthetic Fibers and Filaments Manufacturing','85 Chatsworth Drive, LATHLAIN, WA, 6100','(08) 9377 9601','Omniveo@orgmail.com','om834009',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Paleombee','Power and Communication Line and Related Structures Construction','29 Pelican Road, GLEBE, TAS, 7000','(03) 6223 7253','Paleombee@orgmail.com','pa280738',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Pixonoodle','Chain of Fitness and Recreational Sports Centers','5 Grandis Road, GEORGES CREEK, NSW, 2440','(02) 6767 2979','Pixonoodle@orgmail.com','pi559385',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Plambu','Iron Ore Mining','65 Girvan Grove, BENDIGO, VIC, 3550','(03) 5311 1165','Plambu@orgmail.com','pl929410',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Polyor','Couriers and Express Delivery Services','87 Tennyson Road, BANKSTOWN, NSW, 2200','(02) 9782 9432','Polyor@orgmail.com','po640351',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Quasita','Pharmaceutical and Medicine Manufacturing','24 Moruya Road, BALLALABA, NSW, 2622','(02) 6192 0013','Quasita@orgmail.com','qu354047',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Retri','Environmental Consulting Services','54 Henry Street, GROVEDALE, VIC, 3216','(03) 5307 8743','Retri@orgmail.com','re917181',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Seminix','Paint and Coating Manufacturing','67 Woodlands Avenue, PARRAMATTA WESTFIELD, NSW, 2150','(02) 9431 3390','Seminix@orgmail.com','se585520',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Superic ','Provides Nondepository Credit Intermediation services','45 Begley Street, ADELAIDE BC, SA, 5000','(08) 8275 7855','Superic @orgmail.com','su133371',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Supoid','Chain of Outdoor Power Equipment Stores','15 Ocean Street, SYDNEY SOUTH, NSW, 2000','(02) 8583 7503','Supoid@orgmail.com','su233646',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Suprambo','Temporary Help Services','77 Watson Street, BARNADOWN, VIC, 3557','(03) 5319 0561','Suprambo@orgmail.com','su263349',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Surose','Fertilizer Manufacturing','45 Seiferts Rd, BARMOYA, QLD, 4703','(07) 4987 1111','Surose@orgmail.com','su635989',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Syore','Promoters of Performing Arts, Sports, and Similar Events with Facilities','63 Oak Street, TULLYMORGAN, NSW, 2463','(02) 6771 8803','Syore@orgmail.com','sy229470',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Tadoo','Medical and Diagnostic Laboratories','77 Ross Smith Avenue, DARWIN, NT, 0800','(08) 8926 8155','Tadoo@orgmail.com','ta319283',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Transore','Top hotel chain in regional NSW','72 Elizabeth Street, Sandy Creek, QLD 4570','(07) 5359 3172','Transore@orgmail.com','tr128589',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Yado','The largest Oil and Gas Extraction firm in the Asia-Pacific','13 McGregor Street, TUGGERANONG, ACT, 2900','(02) 6188 3805','Yado@orgmail.com','ya138741',now(),now())
+INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Zootri','Direct Mail Advertising Services','21 Grandis Road, WILLAWARRIN, 2440','(02) 6765 0304','Zootri@orgmail.com','zo903355',now(),now())
 
 
 
 /* Insert entries into jobs table */
-INSERT INTO jobs (title, skills) values ('Applications Analyst','Balsamiq, JIRA', now(), now());
-INSERT INTO jobs (title, skills) values ('Applications Programmer','Github, Python', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Language Coder','Textmate, Sublime Text, JIRA, NetBeans', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Network Engineer','Wireshark, Nagios, Capsa', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Programmer','Rubber duck, Sublime Text', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Systems Analyst','Sublime Text, JIRA, NetBeans', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Systems Consultant','Textmate, Sublime Text, JIRA', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Systems Software Architect','AutoCad, SketchUp, ArchiCAD', now(), now());
-INSERT INTO jobs (title, skills) values ('Computer Systems Software Engineer','Eclipse, Visual Studio', now(), now());
-INSERT INTO jobs (title, skills) values ('Data Processing Systems Analyst','Hadoop, Qubole', now(), now());
-INSERT INTO jobs (title, skills) values ('Embedded Systems Software Developer','Eclipse, MATLAB, MPLAB', now(), now());
-INSERT INTO jobs (title, skills) values ('Enterprise Systems Engineer','CAE Simulation, SCCM', now(), now());
-INSERT INTO jobs (title, skills) values ('Information Systems Analyst','BizFluent, Trudera', now(), now());
-INSERT INTO jobs (title, skills) values ('Information Systems Planner','SISP, TDAN', now(), now());
-INSERT INTO jobs (title, skills) values ('Internet Application Developer','Angular.JS., Grunt, jQuery, Grunt', now(), now());
-INSERT INTO jobs (title, skills) values ('Internet Developer','Bootstrap,  jQuery, Atom', now(), now());
-INSERT INTO jobs (title, skills) values ('Intranet Developer','ThoughtFarmer, Beekeeper', now(), now());
-INSERT INTO jobs (title, skills) values ('Junior Software Developer','Textmate, Sublime Text, HTML, CSS, JavaScript', now(), now());
-INSERT INTO jobs (title, skills) values ('Senior Software Developer ','HTML, CSS, JavaScript, Jquery, Node, MONGODB', now(), now());
-INSERT INTO jobs (title, skills) values ('Mainframe Programmer','COBOL, CLIST ', now(), now());
-INSERT INTO jobs (title, skills) values ('Network Designer','eDraw. Visio, ConceptDraw Pro', now(), now());
-INSERT INTO jobs (title, skills) values ('Network Developer','Radar, DevTool', now(), now());
-INSERT INTO jobs (title, skills) values ('Network Engineer','Zabbix, Icinga', now(), now());
-INSERT INTO jobs (title, skills) values ('Programmer Analyst','SQL, Python', now(), now());
-INSERT INTO jobs (title, skills) values ('Software Systems Engineer','Innsolate, MagicDraw', now(), now());
-INSERT INTO jobs (title, skills) values ('Systems Architect','Unicom, Serrata', now(), now());
-INSERT INTO jobs (title, skills) values ('Systems Programmer','NetBeans, Python', now(), now());
-INSERT INTO jobs (title, skills) values ('Systems Software Designer','MATLAB, ZW3D, CATIA', now(), now());
-INSERT INTO jobs (title, skills) values ('Systems Software Specialist','Asana, JiRA', now(), now());
-INSERT INTO jobs (title, skills) values ('Web Content Developer','ColorZilla, Notepad++, AngularJS, Sublime Text', now(), now());
-INSERT INTO jobs (title, skills) values ('Web Designer','Dreamweaver, Photoshop', now(), now());
-INSERT INTO jobs (title, skills) values ('Web Developer','HTML, CSS', now(), now());
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Applications Analyst','Balsamiq, JIRA',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Applications Programmer','Github, Python',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Language Coder','Textmate, Sublime Text, JIRA, NetBeans',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Network Engineer','Wireshark, Nagios, Capsa',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Programmer','Rubber duck, Sublime Text',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Analyst','Sublime Text, JIRA, NetBeans',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Consultant','Textmate, Sublime Text, JIRA',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Software Architect','AutoCad, SketchUp, ArchiCAD',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Software Engineer','Eclipse, Visual Studio',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Data Processing Systems Analyst','Hadoop, Qubole',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Embedded Systems Software Developer','Eclipse, MATLAB, MPLAB',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Enterprise Systems Engineer','CAE Simulation, SCCM',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Information Systems Analyst','BizFluent, Trudera',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Information Systems Planner','SISP, TDAN',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Internet Application Developer','Angular.JS., Grunt, jQuery, Grunt',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Internet Developer','Bootstrap,  jQuery, Atom',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Intranet Developer','ThoughtFarmer, Beekeeper',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Junior Software Developer','Textmate, Sublime Text, HTML, CSS, JavaScript',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Senior Software Developer ','HTML, CSS, JavaScript, Jquery, Node, MONGODB',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Mainframe Programmer','COBOL, CLIST ',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Network Designer','eDraw. Visio, ConceptDraw Pro',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Network Developer','Radar, DevTool',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Network Engineer','Zabbix, Icinga',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Programmer Analyst','SQL, Python',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Software Systems Engineer','Innsolate, MagicDraw',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Architect','Unicom, Serrata',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Programmer','NetBeans, Python',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Software Designer','MATLAB, ZW3D, CATIA',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Software Specialist','Asana, JiRA',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Web Content Developer','ColorZilla, Notepad++, AngularJS, Sublime Text',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Web Designer','Dreamweaver, Photoshop',now(),now())
+INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Web Developer','HTML, CSS',now(),now())
 
 /* Insert entries into employees table */
 
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vincent','Myers',1,'VinMyers@gmail.com','vi762111', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dainton','Thompson',2,'DaiThompson@gmail.com','da609080', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Brooke','Scott',3,'BroScott@gmail.com','br790562', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alexander','Barnes',4,'AleBarnes@gmail.com','al720595', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jasmine','Smith',5,'JasSmith@gmail.com','ja262817', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Natalie','Bennett',6,'NatBennett@gmail.com','na656352', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adele','Jones',7,'AdeJones@gmail.com','ad781056', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dale','Mason',8,'DalMason@gmail.com','da701229', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adrian','Phillips',9,'AdrPhillips@gmail.com','ad726048', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cherry','Holmes',10,'CheHolmes@gmail.com','ch212830', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Deanna','Baker',11,'DeaBaker@gmail.com','de563317', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Wilson','Barnes',12,'WilBarnes@gmail.com','wi228970', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lenny','Mason',13,'LenMason@gmail.com','le373943', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Robert','Lloyd',14,'RobLloyd@gmail.com','ro266976', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vanessa','Tucker',15,'VanTucker@gmail.com','va702687', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ted','Anderson',16,'TedAnderson@gmail.com','te230174', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adam','Carter',17,'AdaCarter@gmail.com','ad777104', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Arianna','West',18,'AriWest@gmail.com','ar760644', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Annabella','Crawford',19,'AnnCrawford@gmail.com','an291697', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jasmine','Stewart',20,'JasStewart@gmail.com','ja334892', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Valeria','Edwards',21,'ValEdwards@gmail.com','va732885', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alexander','Warren',22,'AleWarren@gmail.com','al516059', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Abigail','Cunningham',23,'AbiCunningham@gmail.com','ab747177', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lucy','Harrison',24,'LucHarrison@gmail.com','lu747288', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('April','Baker',25,'AprBaker@gmail.com','ap133348', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Marcus','Harrison',26,'MarHarrison@gmail.com','ma813825', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chelsea','Perkins',27,'ChePerkins@gmail.com','ch828482', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Myra','Mitchell',28,'MyrMitchell@gmail.com','my667319', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aston','Brown',29,'AstBrown@gmail.com','as654242', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Hailey','Crawford',30,'HaiCrawford@gmail.com','ha121792', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rubie','Howard',31,'RubHoward@gmail.com','ru161093', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Myra','Cameron',1,'MyrCameron@gmail.com','my501427', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Carina','Campbell',2,'CarCampbell@gmail.com','ca242134', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Daisy','Wells',3,'DaiWells@gmail.com','da944336', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Julian','Evans',4,'JulEvans@gmail.com','ju738177', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vivian','Tucker',5,'VivTucker@gmail.com','vi699931', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Brooke','Richards',6,'BroRichards@gmail.com','br956413', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Hailey','Murray',7,'HaiMurray@gmail.com','ha600816', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Miranda','Elliott',8,'MirElliott@gmail.com','mi907889', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Julia','Bailey',9,'JulBailey@gmail.com','ju493052', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sarah','Campbell',10,'SarCampbell@gmail.com','sa925224', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Marcus','Campbell',11,'MarCampbell@gmail.com','ma565215', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tara','Andrews',12,'TarAndrews@gmail.com','ta326146', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Frederick','Perkins',13,'FrePerkins@gmail.com','fr132069', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Clark','Moore',14,'ClaMoore@gmail.com','cl501259', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Camila','Fowler',15,'CamFowler@gmail.com','ca881283', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Daryl','Adams',16,'DarAdams@gmail.com','da810788', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sophia','Ferguson',17,'SopFerguson@gmail.com','so546466', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('April','Alexander',18,'AprAlexander@gmail.com','ap571508', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amber','Robinson',19,'AmbRobinson@gmail.com','am301075', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Victoria','Montgomery',20,'VicMontgomery@gmail.com','vi973526', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lana','Mason',21,'LanMason@gmail.com','la405309', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sofia','Perkins',22,'SofPerkins@gmail.com','so408724', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alissa','Cameron',23,'AliCameron@gmail.com','al552273', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lenny','Brown',24,'LenBrown@gmail.com','le669029', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Camila','Hawkins',25,'CamHawkins@gmail.com','ca175419', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Fenton','West',26,'FenWest@gmail.com','fe621618', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ryan','Tucker',27,'RyaTucker@gmail.com','ry664392', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Arianna','Harper',28,'AriHarper@gmail.com','ar746254', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Eleanor','Gibson',29,'EleGibson@gmail.com','el241524', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Martin','Barnes',30,'MarBarnes@gmail.com','ma758597', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jared','Barrett',31,'JarBarrett@gmail.com','ja892471', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Madaline','Perkins',1,'MadPerkins@gmail.com','ma971143', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Penelope','Thompson',2,'PenThompson@gmail.com','pe706536', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jared','Clark',3,'JarClark@gmail.com','ja841818', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rosie','Cameron',4,'RosCameron@gmail.com','ro381162', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Caroline','Anderson',5,'CarAnderson@gmail.com','ca485075', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Elise','Dixon',6,'EliDixon@gmail.com','el237666', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Savana','Moore',7,'SavMoore@gmail.com','sa217774', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Madaline','Payne',8,'MadPayne@gmail.com','ma926389', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Olivia','Murray',9,'OliMurray@gmail.com','ol287698', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cherry','Miller',10,'CheMiller@gmail.com','ch280044', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Paul','Allen',11,'PauAllen@gmail.com','pa782694', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rebecca','Alexander',12,'RebAlexander@gmail.com','re320737', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sophia','Miller',13,'SopMiller@gmail.com','so287352', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Max','Kelly',14,'MaxKelly@gmail.com','ma345788', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sydney','Kelley',15,'SydKelley@gmail.com','sy562691', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Miranda','Murphy',16,'MirMurphy@gmail.com','mi561489', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Emma','Fowler',17,'EmmFowler@gmail.com','em659889', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('John','Ross',18,'JohRoss@gmail.com','jo941599', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lilianna','Moore',19,'LilMoore@gmail.com','li908721', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Victoria','Spencer',20,'VicSpencer@gmail.com','vi391281', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Bruce','Cooper',21,'BruCooper@gmail.com','br956965', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alberta','Williams',22,'AlbWilliams@gmail.com','al412924', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adele','Craig',23,'AdeCraig@gmail.com','ad525851', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sophia','Cole',24,'SopCole@gmail.com','so271062', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ned','Allen',25,'NedAllen@gmail.com','ne568939', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Elian','Spencer',26,'EliSpencer@gmail.com','el139604', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sofia','Howard',27,'SofHoward@gmail.com','so294183', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Madaline','Barrett',28,'MadBarrett@gmail.com','ma216455', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('James','Murray',29,'JamMurray@gmail.com','ja184820', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicole','Richards',30,'NicRichards@gmail.com','ni408155', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alexia','Perkins',31,'AlePerkins@gmail.com','al657222', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Myra','Morrison',1,'MyrMorrison@gmail.com','my883701', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Edward','Perkins',2,'EdwPerkins@gmail.com','ed730573', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Walter','Reed',3,'WalReed@gmail.com','wa275528', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sabrina','Campbell',4,'SabCampbell@gmail.com','sa860442', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Abigail','Chapman',5,'AbiChapman@gmail.com','ab735949', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ned','Williams',6,'NedWilliams@gmail.com','ne247201', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tess','Ryan',7,'TesRyan@gmail.com','te563324', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lucia','Ferguson',8,'LucFerguson@gmail.com','lu913562', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Eddy','Mitchell',9,'EddMitchell@gmail.com','ed995657', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Richard','Williams',10,'RicWilliams@gmail.com','ri852399', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kellan','Reed',11,'KelReed@gmail.com','ke561712', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cherry','Brooks',12,'CheBrooks@gmail.com','ch714423', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Elian','Armstrong',13,'EliArmstrong@gmail.com','el690334', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Natalie','Morgan',14,'NatMorgan@gmail.com','na816141', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Paige','Crawford',15,'PaiCrawford@gmail.com','pa412950', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amy','Cooper',16,'AmyCooper@gmail.com','am879781', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Leonardo','Allen',17,'LeoAllen@gmail.com','le785985', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Spike','Carter',18,'SpiCarter@gmail.com','sp283986', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Max','Brooks',19,'MaxBrooks@gmail.com','ma727358', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sofia','Higgins',20,'SofHiggins@gmail.com','so983301', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Paige','Ellis',21,'PaiEllis@gmail.com','pa815387', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicholas','Armstrong',22,'NicArmstrong@gmail.com','ni522766', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Caroline','Hill',23,'CarHill@gmail.com','ca914256', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Penelope','Hamilton',24,'PenHamilton@gmail.com','pe665654', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tyler','Taylor',25,'TylTaylor@gmail.com','ty786638', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Luke','Ferguson',26,'LukFerguson@gmail.com','lu224636', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lucia','Taylor',27,'LucTaylor@gmail.com','lu284140', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('George','Morgan',28,'GeoMorgan@gmail.com','ge378170', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Elise','Barnes',29,'EliBarnes@gmail.com','el125906', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Olivia','Andrews',30,'OliAndrews@gmail.com','ol419445', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Mary','Johnston',31,'MarJohnston@gmail.com','ma613857', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Andrew','Douglas',1,'AndDouglas@gmail.com','an607040', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alexia','Carter',2,'AleCarter@gmail.com','al431778', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aston','Wilson',3,'AstWilson@gmail.com','as356487', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Samantha','Chapman',4,'SamChapman@gmail.com','sa191284', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vanessa','Ross',5,'VanRoss@gmail.com','va741449', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Samantha','Stewart',6,'SamStewart@gmail.com','sa824077', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Stuart','West',7,'StuWest@gmail.com','st427994', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dainton','Perry',8,'DaiPerry@gmail.com','da137035', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adrian','Carroll',9,'AdrCarroll@gmail.com','ad800658', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Oscar','Martin',10,'OscMartin@gmail.com','os781419', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adele','Howard',11,'AdeHoward@gmail.com','ad565671', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Heather','Allen',12,'HeaAllen@gmail.com','he519651', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sawyer','Kelley',13,'SawKelley@gmail.com','sa137963', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cherry','Gibson',14,'CheGibson@gmail.com','ch931904', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sam','Miller',15,'SamMiller@gmail.com','sa649805', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jenna','Hawkins',16,'JenHawkins@gmail.com','je938965', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Gianna','Perkins',17,'GiaPerkins@gmail.com','gi485439', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adrianna','Harris',18,'AdrHarris@gmail.com','ad595947', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dainton','Johnson',19,'DaiJohnson@gmail.com','da653408', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('George','Ryan',20,'GeoRyan@gmail.com','ge567171', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kevin','Robinson',21,'KevRobinson@gmail.com','ke801198', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Arnold','Grant',22,'ArnGrant@gmail.com','ar976258', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Eddy','Murphy',23,'EddMurphy@gmail.com','ed719167', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Roland','Wells',24,'RolWells@gmail.com','ro974531', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Melissa','Anderson',25,'MelAnderson@gmail.com','me625043', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alfred','Thompson',26,'AlfThompson@gmail.com','al338681', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tiana','Spencer',27,'TiaSpencer@gmail.com','ti152050', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Albert','West',28,'AlbWest@gmail.com','al375142', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chester','Harris',29,'CheHarris@gmail.com','ch375159', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Miranda','Hamilton',30,'MirHamilton@gmail.com','mi682497', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Victoria','Warren',31,'VicWarren@gmail.com','vi370253', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lucy','Harris',1,'LucHarris@gmail.com','lu170523', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Antony','Anderson',2,'AntAnderson@gmail.com','an291436', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Miranda','Turner',3,'MirTurner@gmail.com','mi233179', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dale','Murray',4,'DalMurray@gmail.com','da477873', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Robert','Gibson',5,'RobGibson@gmail.com','ro277507', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Valeria','Myers',6,'ValMyers@gmail.com','va388881', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Myra','Morris',7,'MyrMorris@gmail.com','my511745', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Richard','Stevens',8,'RicStevens@gmail.com','ri130716', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cadie','Campbell',9,'CadCampbell@gmail.com','ca601849', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vincent','Kelly',10,'VinKelly@gmail.com','vi112268', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sarah','Wilson',11,'SarWilson@gmail.com','sa574224', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alberta','Phillips',12,'AlbPhillips@gmail.com','al572116', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ted','Barnes',13,'TedBarnes@gmail.com','te669655', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Michael','Stevens',14,'MicStevens@gmail.com','mi565358', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Clark','Wright',15,'ClaWright@gmail.com','cl437716', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Stuart','Mason',16,'StuMason@gmail.com','st241866', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dale','Hamilton',17,'DalHamilton@gmail.com','da736338', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vivian','Richards',18,'VivRichards@gmail.com','vi638795', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amelia','Payne',19,'AmePayne@gmail.com','am709051', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Honey','Bennett',20,'HonBennett@gmail.com','ho562911', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amanda','Richards',21,'AmaRichards@gmail.com','am846572', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rubie','Farrell',22,'RubFarrell@gmail.com','ru214215', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Anna','Cole',23,'AnnCole@gmail.com','an299338', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Joyce','Phillips',24,'JoyPhillips@gmail.com','jo264865', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jasmine','Morrison',25,'JasMorrison@gmail.com','ja132171', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Carina','Wright',26,'CarWright@gmail.com','ca932840', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alen','Nelson',27,'AleNelson@gmail.com','al556223', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chloe','Johnston',28,'ChlJohnston@gmail.com','ch261922', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alexander','Murphy',29,'AleMurphy@gmail.com','al834302', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Anna','Martin',30,'AnnMartin@gmail.com','an980231', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicole','Stevens',31,'NicStevens@gmail.com','ni839272', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jasmine','Thompson',1,'JasThompson@gmail.com','ja586741', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adison','Hunt',2,'AdiHunt@gmail.com','ad393301', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Garry','Farrell',3,'GarFarrell@gmail.com','ga632415', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Briony','Barnes',4,'BriBarnes@gmail.com','br779036', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sarah','Cole',5,'SarCole@gmail.com','sa918970', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicholas','Morrison',6,'NicMorrison@gmail.com','ni480861', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Edward','Ryan',7,'EdwRyan@gmail.com','ed568478', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aldus','Fowler',8,'AldFowler@gmail.com','al279986', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ryan','Crawford',9,'RyaCrawford@gmail.com','ry664614', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Evelyn','Grant',10,'EveGrant@gmail.com','ev556038', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jasmine','Cole',11,'JasCole@gmail.com','ja571465', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Freddie','Harrison',12,'FreHarrison@gmail.com','fr638565', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Arianna','Mitchell',13,'AriMitchell@gmail.com','ar957966', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Julia','Barnes',14,'JulBarnes@gmail.com','ju351391', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rubie','Martin',15,'RubMartin@gmail.com','ru568328', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Charlotte','Craig',16,'ChaCraig@gmail.com','ch562533', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Abraham','Mason',17,'AbrMason@gmail.com','ab509301', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jordan','Murray',18,'JorMurray@gmail.com','jo802700', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Haris','Reed',19,'HarReed@gmail.com','ha560800', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dainton','Murray',20,'DaiMurray@gmail.com','da778268', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Walter','Harrison',21,'WalHarrison@gmail.com','wa385814', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alford','West',22,'AlfWest@gmail.com','al868999', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Elian','Alexander',23,'EliAlexander@gmail.com','el619836', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vivian','Rogers',24,'VivRogers@gmail.com','vi418034', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Miller','Ryan',25,'MilRyan@gmail.com','mi462391', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amanda','Riley',26,'AmaRiley@gmail.com','am225179', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Justin','Myers',27,'JusMyers@gmail.com','ju282915', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alen','Allen',28,'AleAllen@gmail.com','al776791', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('James','Stevens',29,'JamStevens@gmail.com','ja666392', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Samantha','Reed',30,'SamReed@gmail.com','sa526802', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rebecca','Thompson',31,'RebThompson@gmail.com','re930133', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jared','Chapman',1,'JarChapman@gmail.com','ja660613', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Penelope','Brooks',2,'PenBrooks@gmail.com','pe416856', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Reid','Ferguson',3,'ReiFerguson@gmail.com','re455452', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Michael','Dixon',4,'MicDixon@gmail.com','mi717337', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Garry','Reed',5,'GarReed@gmail.com','ga704450', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Edward','Perkins',6,'EdwPerkins@gmail.com','ed490421', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ned','Parker',7,'NedParker@gmail.com','ne972782', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Brad','Allen',8,'BraAllen@gmail.com','br815399', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicole','Barrett',9,'NicBarrett@gmail.com','ni958047', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lenny','Rogers',10,'LenRogers@gmail.com','le145492', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lily','Russell',11,'LilRussell@gmail.com','li569015', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rubie','Murphy',12,'RubMurphy@gmail.com','ru149923', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lily','Montgomery',13,'LilMontgomery@gmail.com','li238319', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tiana','Thomas',14,'TiaThomas@gmail.com','ti688286', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Naomi','Thompson',15,'NaoThompson@gmail.com','na243450', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Isabella','Warren',16,'IsaWarren@gmail.com','is359433', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alan','Alexander',17,'AlaAlexander@gmail.com','al999641', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ashton','Richardson',18,'AshRichardson@gmail.com','as855738', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chelsea','Murray',19,'CheMurray@gmail.com','ch399649', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jenna','Adams',20,'JenAdams@gmail.com','je626589', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jacob','Gray',21,'JacGray@gmail.com','ja255456', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lucas','Smith',22,'LucSmith@gmail.com','lu293901', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Penelope','Payne',23,'PenPayne@gmail.com','pe360583', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tiana','Smith',24,'TiaSmith@gmail.com','ti823219', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chelsea','Mason',25,'CheMason@gmail.com','ch707204', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Blake','Adams',26,'BlaAdams@gmail.com','bl865026', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aiden','Farrell',27,'AidFarrell@gmail.com','ai463169', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Charlotte','Fowler',28,'ChaFowler@gmail.com','ch805741', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ryan','Edwards',29,'RyaEdwards@gmail.com','ry769088', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Gianna','Anderson',30,'GiaAnderson@gmail.com','gi234231', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Reid','Davis',31,'ReiDavis@gmail.com','re747283', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicole','Phillips',1,'NicPhillips@gmail.com','ni740149', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cherry','Watson',2,'CheWatson@gmail.com','ch407385', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Richard','Bennett',3,'RicBennett@gmail.com','ri751951', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kristian','Elliott',4,'KriElliott@gmail.com','kr111213', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Abraham','Douglas',5,'AbrDouglas@gmail.com','ab551713', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Isabella','Hawkins',6,'IsaHawkins@gmail.com','is690430', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sarah','Perkins',7,'SarPerkins@gmail.com','sa265728', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Walter','Payne',8,'WalPayne@gmail.com','wa464485', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('James','Murphy',9,'JamMurphy@gmail.com','ja859148', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Luke','Brown',10,'LukBrown@gmail.com','lu848071', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Daryl','Stewart',11,'DarStewart@gmail.com','da274399', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Anna','Riley',12,'AnnRiley@gmail.com','an376464', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Valeria','Morrison',13,'ValMorrison@gmail.com','va994367', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Camila','Lloyd',14,'CamLloyd@gmail.com','ca696117', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Cherry','Cooper',15,'CheCooper@gmail.com','ch141193', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alan','Roberts',16,'AlaRoberts@gmail.com','al364538', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Frederick','Casey',17,'FreCasey@gmail.com','fr481221', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Daryl','Richardson',18,'DarRichardson@gmail.com','da660200', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicholas','Bennett',19,'NicBennett@gmail.com','ni390052', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Myra','Thompson',20,'MyrThompson@gmail.com','my681235', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Maria','Higgins',21,'MarHiggins@gmail.com','ma240036', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Maddie','Cunningham',22,'MadCunningham@gmail.com','ma174931', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Michael','Miller',23,'MicMiller@gmail.com','mi247801', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chloe','Watson',24,'ChlWatson@gmail.com','ch908667', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Arianna','Gray',25,'AriGray@gmail.com','ar740380', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('April','Craig',26,'AprCraig@gmail.com','ap830851', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ashton','Douglas',27,'AshDouglas@gmail.com','as729359', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Daryl','Clark',28,'DarClark@gmail.com','da131070', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amy','Carroll',29,'AmyCarroll@gmail.com','am959701', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lilianna','Martin',30,'LilMartin@gmail.com','li811099', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Nicole','Morrison',31,'NicMorrison@gmail.com','ni434542', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Edith','Cameron',1,'EdiCameron@gmail.com','ed592991', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Luke','Tucker',2,'LukTucker@gmail.com','lu542887', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Maximilian','Elliott',3,'MaxElliott@gmail.com','ma344506', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kimberly','Carter',4,'KimCarter@gmail.com','ki998381', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Owen','Kelley',5,'OweKelley@gmail.com','ow550740', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Reid','Armstrong',6,'ReiArmstrong@gmail.com','re882368', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Mary','Brooks',7,'MarBrooks@gmail.com','ma170137', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Mary','Phillips',8,'MarPhillips@gmail.com','ma335639', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Deanna','Fowler',9,'DeaFowler@gmail.com','de168654', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Camila','Myers',10,'CamMyers@gmail.com','ca804003', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Michelle','Gray',11,'MicGray@gmail.com','mi856922', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ryan','Elliott',12,'RyaElliott@gmail.com','ry784890', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('William','Gibson',13,'WilGibson@gmail.com','wi811506', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Anna','Montgomery',14,'AnnMontgomery@gmail.com','an161061', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Emily','Turner',15,'EmiTurner@gmail.com','em117429', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Darcy','Hill',16,'DarHill@gmail.com','da233846', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Connie','Allen',17,'ConAllen@gmail.com','co344754', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tony','Elliott',18,'TonElliott@gmail.com','to727484', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alen','Evans',19,'AleEvans@gmail.com','al460182', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Elise','Foster',20,'EliFoster@gmail.com','el666839', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Daryl','Hunt',21,'DarHunt@gmail.com','da901475', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Oliver','Smith',22,'OliSmith@gmail.com','ol490166', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alexander','Evans',23,'AleEvans@gmail.com','al945808', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Catherine','Craig',24,'CatCraig@gmail.com','ca634925', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Abigail','Farrell',25,'AbiFarrell@gmail.com','ab286444', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kirsten','Hawkins',26,'KirHawkins@gmail.com','ki276623', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Charlotte','Clark',27,'ChaClark@gmail.com','ch715402', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('David','Montgomery',28,'DavMontgomery@gmail.com','da894885', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Grace','Phillips',29,'GraPhillips@gmail.com','gr752975', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lenny','Ryan',30,'LenRyan@gmail.com','le676220', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Robert','Bailey',31,'RobBailey@gmail.com','ro147824', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Brooke','Hall',1,'BroHall@gmail.com','br138557', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Agata','Moore',2,'AgaMoore@gmail.com','ag573415', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Briony','Baker',3,'BriBaker@gmail.com','br215568', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alford','Chapman',4,'AlfChapman@gmail.com','al761010', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Grace','Rogers',5,'GraRogers@gmail.com','gr744223', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kellan','Carter',6,'KelCarter@gmail.com','ke724289', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Walter','Henderson',7,'WalHenderson@gmail.com','wa371564', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Joyce','Gray',8,'JoyGray@gmail.com','jo841774', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Michael','Hall',9,'MicHall@gmail.com','mi605357', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dexter','Walker',10,'DexWalker@gmail.com','de501081', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jessica','Wells',11,'JesWells@gmail.com','je305963', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tara','Evans',12,'TarEvans@gmail.com','ta140926', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Fiona','Andrews',13,'FioAndrews@gmail.com','fi784551', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jared','Perry',14,'JarPerry@gmail.com','ja916666', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ted','Nelson',15,'TedNelson@gmail.com','te767080', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amy','Ross',16,'AmyRoss@gmail.com','am855150', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jessica','Scott',17,'JesScott@gmail.com','je954242', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Victor','Cole',18,'VicCole@gmail.com','vi980509', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Owen','Ryan',19,'OweRyan@gmail.com','ow707649', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sam','Hill',20,'SamHill@gmail.com','sa644112', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ted','Gray',21,'TedGray@gmail.com','te776625', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jacob','Harrison',22,'JacHarrison@gmail.com','ja337957', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sofia','Evans',23,'SofEvans@gmail.com','so209474', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Byron','Smith',24,'ByrSmith@gmail.com','by587718', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('James','Montgomery',25,'JamMontgomery@gmail.com','ja330845', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adele','Ryan',26,'AdeRyan@gmail.com','ad124753', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Fenton','Cameron',27,'FenCameron@gmail.com','fe165932', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Sydney','Holmes',28,'SydHolmes@gmail.com','sy460959', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Vanessa','Dixon',29,'VanDixon@gmail.com','va708763', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Antony','Gibson',30,'AntGibson@gmail.com','an405537', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Martin','Kelley',31,'MarKelley@gmail.com','ma884679', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Isabella','Baker',1,'IsaBaker@gmail.com','is171790', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dale','Warren',2,'DalWarren@gmail.com','da875398', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tiana','Kelley',3,'TiaKelley@gmail.com','ti709349', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alford','Roberts',4,'AlfRoberts@gmail.com','al242482', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aldus','Kelly',5,'AldKelly@gmail.com','al991031', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dexter','Brown',6,'DexBrown@gmail.com','de591988', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Marcus','Dixon',7,'MarDixon@gmail.com','ma847889', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Abraham','Morrison',8,'AbrMorrison@gmail.com','ab181836', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Agata','Higgins',9,'AgaHiggins@gmail.com','ag610103', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Marcus','Cooper',10,'MarCooper@gmail.com','ma725083', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dale','Hamilton',11,'DalHamilton@gmail.com','da789015', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Albert','Riley',12,'AlbRiley@gmail.com','al918938', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Freddie','Johnson',13,'FreJohnson@gmail.com','fr970788', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Alford','Turner',14,'AlfTurner@gmail.com','al157650', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Edwin','Myers',15,'EdwMyers@gmail.com','ed389710', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Chelsea','Wells',16,'CheWells@gmail.com','ch114502', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aldus','Fowler',17,'AldFowler@gmail.com','al421111', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Eric','Nelson',18,'EriNelson@gmail.com','er273794', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Amanda','Johnson',19,'AmaJohnson@gmail.com','am845511', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Charlie','Dixon',20,'ChaDixon@gmail.com','ch473488', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adrian','Henderson',21,'AdrHenderson@gmail.com','ad620605', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tony','Wells',22,'TonWells@gmail.com','to972481', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Brad','Henderson',23,'BraHenderson@gmail.com','br700592', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Brooke','Morris',24,'BroMorris@gmail.com','br449269', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Richard','Johnston',25,'RicJohnston@gmail.com','ri823782', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Tiana','Jones',26,'TiaJones@gmail.com','ti334692', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Darcy','Casey',27,'DarCasey@gmail.com','da555584', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Stuart','Williams',28,'StuWilliams@gmail.com','st230892', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Rebecca','Myers',29,'RebMyers@gmail.com','re232670', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Frederick','Crawford',30,'FreCrawford@gmail.com','fr794282', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('William','Craig',31,'WilCraig@gmail.com','wi214353', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Briony','Holmes',1,'BriHolmes@gmail.com','br114386', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Paige','Richardson',2,'PaiRichardson@gmail.com','pa360192', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Belinda','Martin',3,'BelMartin@gmail.com','be875828', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('John','Stevens',4,'JohStevens@gmail.com','jo725157', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Audrey','Warren',5,'AudWarren@gmail.com','au128454', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Frederick','Watson',6,'FreWatson@gmail.com','fr643631', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adrianna','Russell',7,'AdrRussell@gmail.com','ad545613', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Walter','Hamilton',8,'WalHamilton@gmail.com','wa591682', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Aida','Ferguson',9,'AidFerguson@gmail.com','ai203549', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Oscar','Riley',10,'OscRiley@gmail.com','os198478', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Paul','Alexander',11,'PauAlexander@gmail.com','pa644616', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Kate','Carroll',12,'KatCarroll@gmail.com','ka947379', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Dexter','Edwards',13,'DexEdwards@gmail.com','de141759', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Eddy','Miller',14,'EddMiller@gmail.com','ed299574', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adele','Bailey',15,'AdeBailey@gmail.com','ad236258', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Paul','Hunt',16,'PauHunt@gmail.com','pa721842', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('William','Armstrong',17,'WilArmstrong@gmail.com','wi266245', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jacob','Reed',18,'JacReed@gmail.com','ja761516', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Jenna','Smith',19,'JenSmith@gmail.com','je282395', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Hailey','Wells',20,'HaiWells@gmail.com','ha663577', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Reid','Mitchell',21,'ReiMitchell@gmail.com','re721674', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adam','Montgomery',22,'AdaMontgomery@gmail.com','ad576659', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Victoria','Perkins',23,'VicPerkins@gmail.com','vi151069', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Ellia','Rogers',24,'EllRogers@gmail.com','el758445', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Joyce','West',25,'JoyWest@gmail.com','jo317691', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Adison','Mason',26,'AdiMason@gmail.com','ad587541', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Lana','Higgins',27,'LanHiggins@gmail.com','la619727', now(), now());
-INSERT INTO employees (firstName,lastName,jobId, email, pwd, createdAt, updatedAt) values ('Mary ','Obrien',9,'MarObrien@gmail.com','ma296432', now(), now());
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vincent','Myers',1,'VinMyers@gmail.com','vi762111',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dainton','Thompson',2,'DaiThompson@gmail.com','da609080',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Brooke','Scott',3,'BroScott@gmail.com','br790562',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alexander','Barnes',4,'AleBarnes@gmail.com','al720595',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jasmine','Smith',5,'JasSmith@gmail.com','ja262817',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Natalie','Bennett',6,'NatBennett@gmail.com','na656352',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adele','Jones',7,'AdeJones@gmail.com','ad781056',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dale','Mason',8,'DalMason@gmail.com','da701229',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adrian','Phillips',9,'AdrPhillips@gmail.com','ad726048',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cherry','Holmes',10,'CheHolmes@gmail.com','ch212830',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Deanna','Baker',11,'DeaBaker@gmail.com','de563317',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Wilson','Barnes',12,'WilBarnes@gmail.com','wi228970',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lenny','Mason',13,'LenMason@gmail.com','le373943',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Robert','Lloyd',14,'RobLloyd@gmail.com','ro266976',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vanessa','Tucker',15,'VanTucker@gmail.com','va702687',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ted','Anderson',16,'TedAnderson@gmail.com','te230174',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adam','Carter',17,'AdaCarter@gmail.com','ad777104',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Arianna','West',18,'AriWest@gmail.com','ar760644',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Annabella','Crawford',19,'AnnCrawford@gmail.com','an291697',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jasmine','Stewart',20,'JasStewart@gmail.com','ja334892',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Valeria','Edwards',21,'ValEdwards@gmail.com','va732885',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alexander','Warren',22,'AleWarren@gmail.com','al516059',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Abigail','Cunningham',23,'AbiCunningham@gmail.com','ab747177',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lucy','Harrison',24,'LucHarrison@gmail.com','lu747288',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('April','Baker',25,'AprBaker@gmail.com','ap133348',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Marcus','Harrison',26,'MarHarrison@gmail.com','ma813825',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chelsea','Perkins',27,'ChePerkins@gmail.com','ch828482',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Myra','Mitchell',28,'MyrMitchell@gmail.com','my667319',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aston','Brown',29,'AstBrown@gmail.com','as654242',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Hailey','Crawford',30,'HaiCrawford@gmail.com','ha121792',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rubie','Howard',31,'RubHoward@gmail.com','ru161093',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Myra','Cameron',1,'MyrCameron@gmail.com','my501427',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Carina','Campbell',2,'CarCampbell@gmail.com','ca242134',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Daisy','Wells',3,'DaiWells@gmail.com','da944336',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Julian','Evans',4,'JulEvans@gmail.com','ju738177',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vivian','Tucker',5,'VivTucker@gmail.com','vi699931',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Brooke','Richards',6,'BroRichards@gmail.com','br956413',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Hailey','Murray',7,'HaiMurray@gmail.com','ha600816',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Miranda','Elliott',8,'MirElliott@gmail.com','mi907889',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Julia','Bailey',9,'JulBailey@gmail.com','ju493052',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sarah','Campbell',10,'SarCampbell@gmail.com','sa925224',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Marcus','Campbell',11,'MarCampbell@gmail.com','ma565215',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tara','Andrews',12,'TarAndrews@gmail.com','ta326146',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Frederick','Perkins',13,'FrePerkins@gmail.com','fr132069',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Clark','Moore',14,'ClaMoore@gmail.com','cl501259',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Camila','Fowler',15,'CamFowler@gmail.com','ca881283',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Daryl','Adams',16,'DarAdams@gmail.com','da810788',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sophia','Ferguson',17,'SopFerguson@gmail.com','so546466',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('April','Alexander',18,'AprAlexander@gmail.com','ap571508',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amber','Robinson',19,'AmbRobinson@gmail.com','am301075',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Victoria','Montgomery',20,'VicMontgomery@gmail.com','vi973526',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lana','Mason',21,'LanMason@gmail.com','la405309',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sofia','Perkins',22,'SofPerkins@gmail.com','so408724',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alissa','Cameron',23,'AliCameron@gmail.com','al552273',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lenny','Brown',24,'LenBrown@gmail.com','le669029',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Camila','Hawkins',25,'CamHawkins@gmail.com','ca175419',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Fenton','West',26,'FenWest@gmail.com','fe621618',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ryan','Tucker',27,'RyaTucker@gmail.com','ry664392',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Arianna','Harper',28,'AriHarper@gmail.com','ar746254',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Eleanor','Gibson',29,'EleGibson@gmail.com','el241524',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Martin','Barnes',30,'MarBarnes@gmail.com','ma758597',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jared','Barrett',31,'JarBarrett@gmail.com','ja892471',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Madaline','Perkins',1,'MadPerkins@gmail.com','ma971143',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Penelope','Thompson',2,'PenThompson@gmail.com','pe706536',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jared','Clark',3,'JarClark@gmail.com','ja841818',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rosie','Cameron',4,'RosCameron@gmail.com','ro381162',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Caroline','Anderson',5,'CarAnderson@gmail.com','ca485075',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Elise','Dixon',6,'EliDixon@gmail.com','el237666',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Savana','Moore',7,'SavMoore@gmail.com','sa217774',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Madaline','Payne',8,'MadPayne@gmail.com','ma926389',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Olivia','Murray',9,'OliMurray@gmail.com','ol287698',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cherry','Miller',10,'CheMiller@gmail.com','ch280044',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Paul','Allen',11,'PauAllen@gmail.com','pa782694',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rebecca','Alexander',12,'RebAlexander@gmail.com','re320737',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sophia','Miller',13,'SopMiller@gmail.com','so287352',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Max','Kelly',14,'MaxKelly@gmail.com','ma345788',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sydney','Kelley',15,'SydKelley@gmail.com','sy562691',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Miranda','Murphy',16,'MirMurphy@gmail.com','mi561489',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Emma','Fowler',17,'EmmFowler@gmail.com','em659889',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('John','Ross',18,'JohRoss@gmail.com','jo941599',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lilianna','Moore',19,'LilMoore@gmail.com','li908721',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Victoria','Spencer',20,'VicSpencer@gmail.com','vi391281',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Bruce','Cooper',21,'BruCooper@gmail.com','br956965',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alberta','Williams',22,'AlbWilliams@gmail.com','al412924',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adele','Craig',23,'AdeCraig@gmail.com','ad525851',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sophia','Cole',24,'SopCole@gmail.com','so271062',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ned','Allen',25,'NedAllen@gmail.com','ne568939',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Elian','Spencer',26,'EliSpencer@gmail.com','el139604',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sofia','Howard',27,'SofHoward@gmail.com','so294183',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Madaline','Barrett',28,'MadBarrett@gmail.com','ma216455',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('James','Murray',29,'JamMurray@gmail.com','ja184820',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicole','Richards',30,'NicRichards@gmail.com','ni408155',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alexia','Perkins',31,'AlePerkins@gmail.com','al657222',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Myra','Morrison',1,'MyrMorrison@gmail.com','my883701',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Edward','Perkins',2,'EdwPerkins@gmail.com','ed730573',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Walter','Reed',3,'WalReed@gmail.com','wa275528',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sabrina','Campbell',4,'SabCampbell@gmail.com','sa860442',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Abigail','Chapman',5,'AbiChapman@gmail.com','ab735949',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ned','Williams',6,'NedWilliams@gmail.com','ne247201',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tess','Ryan',7,'TesRyan@gmail.com','te563324',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lucia','Ferguson',8,'LucFerguson@gmail.com','lu913562',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Eddy','Mitchell',9,'EddMitchell@gmail.com','ed995657',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Richard','Williams',10,'RicWilliams@gmail.com','ri852399',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kellan','Reed',11,'KelReed@gmail.com','ke561712',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cherry','Brooks',12,'CheBrooks@gmail.com','ch714423',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Elian','Armstrong',13,'EliArmstrong@gmail.com','el690334',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Natalie','Morgan',14,'NatMorgan@gmail.com','na816141',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Paige','Crawford',15,'PaiCrawford@gmail.com','pa412950',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amy','Cooper',16,'AmyCooper@gmail.com','am879781',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Leonardo','Allen',17,'LeoAllen@gmail.com','le785985',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Spike','Carter',18,'SpiCarter@gmail.com','sp283986',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Max','Brooks',19,'MaxBrooks@gmail.com','ma727358',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sofia','Higgins',20,'SofHiggins@gmail.com','so983301',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Paige','Ellis',21,'PaiEllis@gmail.com','pa815387',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicholas','Armstrong',22,'NicArmstrong@gmail.com','ni522766',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Caroline','Hill',23,'CarHill@gmail.com','ca914256',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Penelope','Hamilton',24,'PenHamilton@gmail.com','pe665654',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tyler','Taylor',25,'TylTaylor@gmail.com','ty786638',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Luke','Ferguson',26,'LukFerguson@gmail.com','lu224636',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lucia','Taylor',27,'LucTaylor@gmail.com','lu284140',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('George','Morgan',28,'GeoMorgan@gmail.com','ge378170',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Elise','Barnes',29,'EliBarnes@gmail.com','el125906',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Olivia','Andrews',30,'OliAndrews@gmail.com','ol419445',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Mary','Johnston',31,'MarJohnston@gmail.com','ma613857',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Andrew','Douglas',1,'AndDouglas@gmail.com','an607040',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alexia','Carter',2,'AleCarter@gmail.com','al431778',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aston','Wilson',3,'AstWilson@gmail.com','as356487',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Samantha','Chapman',4,'SamChapman@gmail.com','sa191284',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vanessa','Ross',5,'VanRoss@gmail.com','va741449',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Samantha','Stewart',6,'SamStewart@gmail.com','sa824077',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Stuart','West',7,'StuWest@gmail.com','st427994',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dainton','Perry',8,'DaiPerry@gmail.com','da137035',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adrian','Carroll',9,'AdrCarroll@gmail.com','ad800658',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Oscar','Martin',10,'OscMartin@gmail.com','os781419',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adele','Howard',11,'AdeHoward@gmail.com','ad565671',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Heather','Allen',12,'HeaAllen@gmail.com','he519651',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sawyer','Kelley',13,'SawKelley@gmail.com','sa137963',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cherry','Gibson',14,'CheGibson@gmail.com','ch931904',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sam','Miller',15,'SamMiller@gmail.com','sa649805',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jenna','Hawkins',16,'JenHawkins@gmail.com','je938965',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Gianna','Perkins',17,'GiaPerkins@gmail.com','gi485439',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adrianna','Harris',18,'AdrHarris@gmail.com','ad595947',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dainton','Johnson',19,'DaiJohnson@gmail.com','da653408',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('George','Ryan',20,'GeoRyan@gmail.com','ge567171',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kevin','Robinson',21,'KevRobinson@gmail.com','ke801198',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Arnold','Grant',22,'ArnGrant@gmail.com','ar976258',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Eddy','Murphy',23,'EddMurphy@gmail.com','ed719167',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Roland','Wells',24,'RolWells@gmail.com','ro974531',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Melissa','Anderson',25,'MelAnderson@gmail.com','me625043',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alfred','Thompson',26,'AlfThompson@gmail.com','al338681',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tiana','Spencer',27,'TiaSpencer@gmail.com','ti152050',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Albert','West',28,'AlbWest@gmail.com','al375142',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chester','Harris',29,'CheHarris@gmail.com','ch375159',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Miranda','Hamilton',30,'MirHamilton@gmail.com','mi682497',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Victoria','Warren',31,'VicWarren@gmail.com','vi370253',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lucy','Harris',1,'LucHarris@gmail.com','lu170523',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Antony','Anderson',2,'AntAnderson@gmail.com','an291436',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Miranda','Turner',3,'MirTurner@gmail.com','mi233179',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dale','Murray',4,'DalMurray@gmail.com','da477873',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Robert','Gibson',5,'RobGibson@gmail.com','ro277507',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Valeria','Myers',6,'ValMyers@gmail.com','va388881',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Myra','Morris',7,'MyrMorris@gmail.com','my511745',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Richard','Stevens',8,'RicStevens@gmail.com','ri130716',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cadie','Campbell',9,'CadCampbell@gmail.com','ca601849',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vincent','Kelly',10,'VinKelly@gmail.com','vi112268',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sarah','Wilson',11,'SarWilson@gmail.com','sa574224',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alberta','Phillips',12,'AlbPhillips@gmail.com','al572116',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ted','Barnes',13,'TedBarnes@gmail.com','te669655',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Michael','Stevens',14,'MicStevens@gmail.com','mi565358',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Clark','Wright',15,'ClaWright@gmail.com','cl437716',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Stuart','Mason',16,'StuMason@gmail.com','st241866',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dale','Hamilton',17,'DalHamilton@gmail.com','da736338',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vivian','Richards',18,'VivRichards@gmail.com','vi638795',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amelia','Payne',19,'AmePayne@gmail.com','am709051',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Honey','Bennett',20,'HonBennett@gmail.com','ho562911',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amanda','Richards',21,'AmaRichards@gmail.com','am846572',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rubie','Farrell',22,'RubFarrell@gmail.com','ru214215',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Anna','Cole',23,'AnnCole@gmail.com','an299338',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Joyce','Phillips',24,'JoyPhillips@gmail.com','jo264865',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jasmine','Morrison',25,'JasMorrison@gmail.com','ja132171',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Carina','Wright',26,'CarWright@gmail.com','ca932840',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alen','Nelson',27,'AleNelson@gmail.com','al556223',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chloe','Johnston',28,'ChlJohnston@gmail.com','ch261922',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alexander','Murphy',29,'AleMurphy@gmail.com','al834302',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Anna','Martin',30,'AnnMartin@gmail.com','an980231',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicole','Stevens',31,'NicStevens@gmail.com','ni839272',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jasmine','Thompson',1,'JasThompson@gmail.com','ja586741',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adison','Hunt',2,'AdiHunt@gmail.com','ad393301',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Garry','Farrell',3,'GarFarrell@gmail.com','ga632415',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Briony','Barnes',4,'BriBarnes@gmail.com','br779036',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sarah','Cole',5,'SarCole@gmail.com','sa918970',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicholas','Morrison',6,'NicMorrison@gmail.com','ni480861',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Edward','Ryan',7,'EdwRyan@gmail.com','ed568478',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aldus','Fowler',8,'AldFowler@gmail.com','al279986',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ryan','Crawford',9,'RyaCrawford@gmail.com','ry664614',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Evelyn','Grant',10,'EveGrant@gmail.com','ev556038',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jasmine','Cole',11,'JasCole@gmail.com','ja571465',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Freddie','Harrison',12,'FreHarrison@gmail.com','fr638565',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Arianna','Mitchell',13,'AriMitchell@gmail.com','ar957966',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Julia','Barnes',14,'JulBarnes@gmail.com','ju351391',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rubie','Martin',15,'RubMartin@gmail.com','ru568328',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Charlotte','Craig',16,'ChaCraig@gmail.com','ch562533',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Abraham','Mason',17,'AbrMason@gmail.com','ab509301',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jordan','Murray',18,'JorMurray@gmail.com','jo802700',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Haris','Reed',19,'HarReed@gmail.com','ha560800',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dainton','Murray',20,'DaiMurray@gmail.com','da778268',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Walter','Harrison',21,'WalHarrison@gmail.com','wa385814',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alford','West',22,'AlfWest@gmail.com','al868999',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Elian','Alexander',23,'EliAlexander@gmail.com','el619836',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vivian','Rogers',24,'VivRogers@gmail.com','vi418034',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Miller','Ryan',25,'MilRyan@gmail.com','mi462391',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amanda','Riley',26,'AmaRiley@gmail.com','am225179',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Justin','Myers',27,'JusMyers@gmail.com','ju282915',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alen','Allen',28,'AleAllen@gmail.com','al776791',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('James','Stevens',29,'JamStevens@gmail.com','ja666392',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Samantha','Reed',30,'SamReed@gmail.com','sa526802',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rebecca','Thompson',31,'RebThompson@gmail.com','re930133',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jared','Chapman',1,'JarChapman@gmail.com','ja660613',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Penelope','Brooks',2,'PenBrooks@gmail.com','pe416856',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Reid','Ferguson',3,'ReiFerguson@gmail.com','re455452',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Michael','Dixon',4,'MicDixon@gmail.com','mi717337',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Garry','Reed',5,'GarReed@gmail.com','ga704450',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Edward','Perkins',6,'EdwPerkins@gmail.com','ed490421',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ned','Parker',7,'NedParker@gmail.com','ne972782',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Brad','Allen',8,'BraAllen@gmail.com','br815399',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicole','Barrett',9,'NicBarrett@gmail.com','ni958047',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lenny','Rogers',10,'LenRogers@gmail.com','le145492',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lily','Russell',11,'LilRussell@gmail.com','li569015',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rubie','Murphy',12,'RubMurphy@gmail.com','ru149923',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lily','Montgomery',13,'LilMontgomery@gmail.com','li238319',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tiana','Thomas',14,'TiaThomas@gmail.com','ti688286',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Naomi','Thompson',15,'NaoThompson@gmail.com','na243450',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Isabella','Warren',16,'IsaWarren@gmail.com','is359433',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alan','Alexander',17,'AlaAlexander@gmail.com','al999641',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ashton','Richardson',18,'AshRichardson@gmail.com','as855738',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chelsea','Murray',19,'CheMurray@gmail.com','ch399649',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jenna','Adams',20,'JenAdams@gmail.com','je626589',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jacob','Gray',21,'JacGray@gmail.com','ja255456',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lucas','Smith',22,'LucSmith@gmail.com','lu293901',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Penelope','Payne',23,'PenPayne@gmail.com','pe360583',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tiana','Smith',24,'TiaSmith@gmail.com','ti823219',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chelsea','Mason',25,'CheMason@gmail.com','ch707204',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Blake','Adams',26,'BlaAdams@gmail.com','bl865026',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aiden','Farrell',27,'AidFarrell@gmail.com','ai463169',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Charlotte','Fowler',28,'ChaFowler@gmail.com','ch805741',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ryan','Edwards',29,'RyaEdwards@gmail.com','ry769088',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Gianna','Anderson',30,'GiaAnderson@gmail.com','gi234231',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Reid','Davis',31,'ReiDavis@gmail.com','re747283',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicole','Phillips',1,'NicPhillips@gmail.com','ni740149',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cherry','Watson',2,'CheWatson@gmail.com','ch407385',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Richard','Bennett',3,'RicBennett@gmail.com','ri751951',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kristian','Elliott',4,'KriElliott@gmail.com','kr111213',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Abraham','Douglas',5,'AbrDouglas@gmail.com','ab551713',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Isabella','Hawkins',6,'IsaHawkins@gmail.com','is690430',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sarah','Perkins',7,'SarPerkins@gmail.com','sa265728',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Walter','Payne',8,'WalPayne@gmail.com','wa464485',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('James','Murphy',9,'JamMurphy@gmail.com','ja859148',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Luke','Brown',10,'LukBrown@gmail.com','lu848071',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Daryl','Stewart',11,'DarStewart@gmail.com','da274399',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Anna','Riley',12,'AnnRiley@gmail.com','an376464',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Valeria','Morrison',13,'ValMorrison@gmail.com','va994367',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Camila','Lloyd',14,'CamLloyd@gmail.com','ca696117',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Cherry','Cooper',15,'CheCooper@gmail.com','ch141193',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alan','Roberts',16,'AlaRoberts@gmail.com','al364538',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Frederick','Casey',17,'FreCasey@gmail.com','fr481221',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Daryl','Richardson',18,'DarRichardson@gmail.com','da660200',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicholas','Bennett',19,'NicBennett@gmail.com','ni390052',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Myra','Thompson',20,'MyrThompson@gmail.com','my681235',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Maria','Higgins',21,'MarHiggins@gmail.com','ma240036',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Maddie','Cunningham',22,'MadCunningham@gmail.com','ma174931',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Michael','Miller',23,'MicMiller@gmail.com','mi247801',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chloe','Watson',24,'ChlWatson@gmail.com','ch908667',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Arianna','Gray',25,'AriGray@gmail.com','ar740380',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('April','Craig',26,'AprCraig@gmail.com','ap830851',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ashton','Douglas',27,'AshDouglas@gmail.com','as729359',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Daryl','Clark',28,'DarClark@gmail.com','da131070',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amy','Carroll',29,'AmyCarroll@gmail.com','am959701',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lilianna','Martin',30,'LilMartin@gmail.com','li811099',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Nicole','Morrison',31,'NicMorrison@gmail.com','ni434542',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Edith','Cameron',1,'EdiCameron@gmail.com','ed592991',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Luke','Tucker',2,'LukTucker@gmail.com','lu542887',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Maximilian','Elliott',3,'MaxElliott@gmail.com','ma344506',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kimberly','Carter',4,'KimCarter@gmail.com','ki998381',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Owen','Kelley',5,'OweKelley@gmail.com','ow550740',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Reid','Armstrong',6,'ReiArmstrong@gmail.com','re882368',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Mary','Brooks',7,'MarBrooks@gmail.com','ma170137',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Mary','Phillips',8,'MarPhillips@gmail.com','ma335639',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Deanna','Fowler',9,'DeaFowler@gmail.com','de168654',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Camila','Myers',10,'CamMyers@gmail.com','ca804003',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Michelle','Gray',11,'MicGray@gmail.com','mi856922',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ryan','Elliott',12,'RyaElliott@gmail.com','ry784890',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('William','Gibson',13,'WilGibson@gmail.com','wi811506',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Anna','Montgomery',14,'AnnMontgomery@gmail.com','an161061',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Emily','Turner',15,'EmiTurner@gmail.com','em117429',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Darcy','Hill',16,'DarHill@gmail.com','da233846',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Connie','Allen',17,'ConAllen@gmail.com','co344754',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tony','Elliott',18,'TonElliott@gmail.com','to727484',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alen','Evans',19,'AleEvans@gmail.com','al460182',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Elise','Foster',20,'EliFoster@gmail.com','el666839',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Daryl','Hunt',21,'DarHunt@gmail.com','da901475',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Oliver','Smith',22,'OliSmith@gmail.com','ol490166',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alexander','Evans',23,'AleEvans@gmail.com','al945808',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Catherine','Craig',24,'CatCraig@gmail.com','ca634925',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Abigail','Farrell',25,'AbiFarrell@gmail.com','ab286444',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kirsten','Hawkins',26,'KirHawkins@gmail.com','ki276623',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Charlotte','Clark',27,'ChaClark@gmail.com','ch715402',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('David','Montgomery',28,'DavMontgomery@gmail.com','da894885',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Grace','Phillips',29,'GraPhillips@gmail.com','gr752975',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lenny','Ryan',30,'LenRyan@gmail.com','le676220',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Robert','Bailey',31,'RobBailey@gmail.com','ro147824',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Brooke','Hall',1,'BroHall@gmail.com','br138557',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Agata','Moore',2,'AgaMoore@gmail.com','ag573415',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Briony','Baker',3,'BriBaker@gmail.com','br215568',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alford','Chapman',4,'AlfChapman@gmail.com','al761010',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Grace','Rogers',5,'GraRogers@gmail.com','gr744223',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kellan','Carter',6,'KelCarter@gmail.com','ke724289',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Walter','Henderson',7,'WalHenderson@gmail.com','wa371564',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Joyce','Gray',8,'JoyGray@gmail.com','jo841774',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Michael','Hall',9,'MicHall@gmail.com','mi605357',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dexter','Walker',10,'DexWalker@gmail.com','de501081',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jessica','Wells',11,'JesWells@gmail.com','je305963',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tara','Evans',12,'TarEvans@gmail.com','ta140926',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Fiona','Andrews',13,'FioAndrews@gmail.com','fi784551',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jared','Perry',14,'JarPerry@gmail.com','ja916666',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ted','Nelson',15,'TedNelson@gmail.com','te767080',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amy','Ross',16,'AmyRoss@gmail.com','am855150',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jessica','Scott',17,'JesScott@gmail.com','je954242',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Victor','Cole',18,'VicCole@gmail.com','vi980509',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Owen','Ryan',19,'OweRyan@gmail.com','ow707649',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sam','Hill',20,'SamHill@gmail.com','sa644112',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ted','Gray',21,'TedGray@gmail.com','te776625',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jacob','Harrison',22,'JacHarrison@gmail.com','ja337957',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sofia','Evans',23,'SofEvans@gmail.com','so209474',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Byron','Smith',24,'ByrSmith@gmail.com','by587718',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('James','Montgomery',25,'JamMontgomery@gmail.com','ja330845',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adele','Ryan',26,'AdeRyan@gmail.com','ad124753',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Fenton','Cameron',27,'FenCameron@gmail.com','fe165932',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Sydney','Holmes',28,'SydHolmes@gmail.com','sy460959',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Vanessa','Dixon',29,'VanDixon@gmail.com','va708763',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Antony','Gibson',30,'AntGibson@gmail.com','an405537',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Martin','Kelley',31,'MarKelley@gmail.com','ma884679',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Isabella','Baker',1,'IsaBaker@gmail.com','is171790',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dale','Warren',2,'DalWarren@gmail.com','da875398',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tiana','Kelley',3,'TiaKelley@gmail.com','ti709349',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alford','Roberts',4,'AlfRoberts@gmail.com','al242482',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aldus','Kelly',5,'AldKelly@gmail.com','al991031',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dexter','Brown',6,'DexBrown@gmail.com','de591988',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Marcus','Dixon',7,'MarDixon@gmail.com','ma847889',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Abraham','Morrison',8,'AbrMorrison@gmail.com','ab181836',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Agata','Higgins',9,'AgaHiggins@gmail.com','ag610103',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Marcus','Cooper',10,'MarCooper@gmail.com','ma725083',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dale','Hamilton',11,'DalHamilton@gmail.com','da789015',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Albert','Riley',12,'AlbRiley@gmail.com','al918938',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Freddie','Johnson',13,'FreJohnson@gmail.com','fr970788',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Alford','Turner',14,'AlfTurner@gmail.com','al157650',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Edwin','Myers',15,'EdwMyers@gmail.com','ed389710',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Chelsea','Wells',16,'CheWells@gmail.com','ch114502',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aldus','Fowler',17,'AldFowler@gmail.com','al421111',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Eric','Nelson',18,'EriNelson@gmail.com','er273794',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Amanda','Johnson',19,'AmaJohnson@gmail.com','am845511',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Charlie','Dixon',20,'ChaDixon@gmail.com','ch473488',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adrian','Henderson',21,'AdrHenderson@gmail.com','ad620605',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tony','Wells',22,'TonWells@gmail.com','to972481',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Brad','Henderson',23,'BraHenderson@gmail.com','br700592',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Brooke','Morris',24,'BroMorris@gmail.com','br449269',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Richard','Johnston',25,'RicJohnston@gmail.com','ri823782',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Tiana','Jones',26,'TiaJones@gmail.com','ti334692',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Darcy','Casey',27,'DarCasey@gmail.com','da555584',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Stuart','Williams',28,'StuWilliams@gmail.com','st230892',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Rebecca','Myers',29,'RebMyers@gmail.com','re232670',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Frederick','Crawford',30,'FreCrawford@gmail.com','fr794282',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('William','Craig',31,'WilCraig@gmail.com','wi214353',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Briony','Holmes',1,'BriHolmes@gmail.com','br114386',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Paige','Richardson',2,'PaiRichardson@gmail.com','pa360192',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Belinda','Martin',3,'BelMartin@gmail.com','be875828',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('John','Stevens',4,'JohStevens@gmail.com','jo725157',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Audrey','Warren',5,'AudWarren@gmail.com','au128454',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Frederick','Watson',6,'FreWatson@gmail.com','fr643631',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adrianna','Russell',7,'AdrRussell@gmail.com','ad545613',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Walter','Hamilton',8,'WalHamilton@gmail.com','wa591682',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Aida','Ferguson',9,'AidFerguson@gmail.com','ai203549',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Oscar','Riley',10,'OscRiley@gmail.com','os198478',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Paul','Alexander',11,'PauAlexander@gmail.com','pa644616',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Kate','Carroll',12,'KatCarroll@gmail.com','ka947379',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Dexter','Edwards',13,'DexEdwards@gmail.com','de141759',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Eddy','Miller',14,'EddMiller@gmail.com','ed299574',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adele','Bailey',15,'AdeBailey@gmail.com','ad236258',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Paul','Hunt',16,'PauHunt@gmail.com','pa721842',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('William','Armstrong',17,'WilArmstrong@gmail.com','wi266245',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jacob','Reed',18,'JacReed@gmail.com','ja761516',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Jenna','Smith',19,'JenSmith@gmail.com','je282395',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Hailey','Wells',20,'HaiWells@gmail.com','ha663577',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Reid','Mitchell',21,'ReiMitchell@gmail.com','re721674',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adam','Montgomery',22,'AdaMontgomery@gmail.com','ad576659',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Victoria','Perkins',23,'VicPerkins@gmail.com','vi151069',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Ellia','Rogers',24,'EllRogers@gmail.com','el758445',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Joyce','West',25,'JoyWest@gmail.com','jo317691',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Adison','Mason',26,'AdiMason@gmail.com','ad587541',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Lana','Higgins',27,'LanHiggins@gmail.com','la619727',now(),now())
+INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updatedAt) values ('Mary ','Obrien',9,'MarObrien@gmail.com','ma296432',now(),now())
 
 /* Insert entries into jobsdata table */
 
-INSERT INTO jobads (jobId, employerId, status) values (1,1,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (2,2,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (3,2,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (4,1,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (5,35,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (6,1,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (7,34,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (8,1,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (9,1,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (10,2,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (11,3,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (12,3,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (13,4,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (14,6,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (15,7,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (16,7,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (17,8,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (18,8,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (19,8,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (20,8,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (21,4,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (22,9,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (23,1,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (24,2,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (25,3,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (26,4,0, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (27,23,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (28,34,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (29,25,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (30,27,1, now(), now());
-INSERT INTO jobads (jobId, employerId, status) values (31,26,1, now(), now());
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (1,1,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (2,2,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (3,2,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (4,1,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (5,35,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (6,1,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (7,34,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (8,1,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (9,1,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (10,2,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (11,3,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (12,3,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (13,4,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (14,6,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (15,7,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (16,7,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (17,8,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (18,8,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (19,8,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (20,8,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (21,4,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (22,9,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (23,1,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (24,2,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (25,3,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (26,4,0,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (27,23,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (28,34,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (29,25,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (30,27,1,now(),now())
+INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (31,26,1,now(),now())
+
