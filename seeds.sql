@@ -1,7 +1,6 @@
-/* Seeds for SQL tables. */
-USE linkedout_db;
 
 /* Insert entries into employers table */
+
 
 INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Abafix','Top hospital in rural Victoria ','73 Frouds Road, MALLACOOTA, VIC, 3892','(03) 5303 9945','Abafix@orgmail.com','ab180003',now(),now())
 INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updatedAt) values ('Albent','Commercial and Institutional Building Construction','77 Chatsworth Drive, BURSWOOD, WA, 6100','(08) 9350 2576','Albent@orgmail.com','al190822',now(),now())
@@ -526,3 +525,4 @@ INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (28,34,
 INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (29,25,1,now(),now())
 INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (30,27,1,now(),now())
 INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (31,26,1,now(),now())
+
