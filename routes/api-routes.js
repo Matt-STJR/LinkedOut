@@ -41,10 +41,14 @@ module.exports = function(app) {
       return res.json(result);
   });
   // Route for getting a list of all the jobAds for the user to be used client side
+<<<<<<< Updated upstream
   app.get("/api/LinkedOut/jobAds/:id", function(req, res) {
+=======
+  app.get("/api/LinkedOut/jobAds/1", function(req, res) {
+>>>>>>> Stashed changes
     db.jobAds.findAll({
       where: {
-        emp_id: req.params.id,
+        employerId: 1,
         status: true
       }
     }).then(function(result) {
@@ -55,7 +59,7 @@ module.exports = function(app) {
   app.get("api/LinkedOut/jobAds/info", function(req, res) {
     db.jobs.findOne({
       where: {
-        id: req.JobAds.job_id,
+        id: req.JobAds.jobId,
       }
     }).then(function(result) {
       return res.json(result);
@@ -66,7 +70,7 @@ module.exports = function(app) {
   app.get("/api/LinkedOut/employeelist", function(req, res) {
     db.employees.findAll({
       where: {
-        job_id: req.jobAds.job_id
+        job_id: req.jobAds.jobId
       }
     }).then(function(result) {
       return res.json(result);
