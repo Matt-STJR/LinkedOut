@@ -33,24 +33,19 @@ module.exports = function(app) {
 
   // Route for getting the data about our user to be used client side
   app.get("/api/LinkedOut/user_data", function(req, res) {
-    if (!req.employers) {
-      res.json({});
-    } else {
-      res.json({
-        name: req.employers.name,
-        about: req.employers.about,
-        address: req.employers.address,
-        phone: req.employers.phone,
-        email: req.employers.email,
-        id: req.employers.id
-      });
-    }
+    db.employers.findOne({
+      where: {
+        id: 1,
+      }
+    }).then(function(result) {
+      return res.json(result);
   });
+
   // Route for getting a list of all the jobAds for the user to be used client side
   app.get("/api/LinkedOut/jobAds/:id", function(req, res) {
-    jobAds.findAll({
+    db.jobAds.findAll({
       where: {
-        emp_id: req.params.id,
+        employerId: req.params.id,
         status: true
       }
     }).then(function(result) {
@@ -58,10 +53,10 @@ module.exports = function(app) {
     });
   });
 
-  app.get("api/LinkedOut/jobAds/info", function(req, res) {
-    jobs.findOne({
+  app.get("/api/LinkedOut/jobAds/info/:jobId", function(req, res) {
+    db.jobs.findOne({
       where: {
-        id: req.JobAds.job_id,
+        id: req.params.jobId,
       }
     }).then(function(result) {
       return res.json(result);
@@ -70,12 +65,13 @@ module.exports = function(app) {
 
   // Route for getting a list of all the employees that are compatible with the JobAd
   app.get("/api/LinkedOut/employeelist", function(req, res) {
-    employees.findAll({
+    db.employees.findAll({
       where: {
-        job_id: req.jobAds.job_id
+        job_id: req.jobAds.jobId
       }
     }).then(function(result) {
       return res.json(result);
     });
   });
+});
 };

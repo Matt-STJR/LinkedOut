@@ -69,11 +69,13 @@ bg-custom {
 }
 
 .btn-custom-main {
+  font-size: large;
   color: #FFF;
   background-color: #484E5E;
 }
 
 .btn-custom-secondary {
+  font-size: large;
   color: #484E5E;
   background-color: whitesmoke;
 }
