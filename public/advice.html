@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>LinkedOut</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom styles -->
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+ <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/"><img src="assets/logo.png" class="nav-logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="job-ads.html">Job Ads
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="members.html">Contractors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="advice.html">Advice</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="masthead-half">
+    <div class="container h-100">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto v-center">
+        <h1 class="page-title text-center">Advice</h5>
+        <hr class="my-4">
+          <form action="/action_page.php" class="col-sm-12" id="job-view">
+            <div class="row">
+            <label for="jobs" class="col-sm-2 custom-dropdown-label">View:</label>
+            <select name="jobs" id="dd" class="col-sm-6 custom-dropdown">
+            <option value="" selected="selected">Select a job</option>
+                <option value="dps1">Software Architect</option>
+                <option value="dps2">Software Engineer</option>
+                <option value="dps3">Software Developer</option>
+                <option value="dps4">Systems Engineer</option>
+                <option value="dps5">Software Systems Engineer</option>
+                <option value="dps6">Systems Software Designer</option>
+                <option value="dps7">Systems Software Specialist</option>
+                <option value="dps8">Internet Application Developer</option>
+                <option value="dps9">Internet Developer</option>
+                <option value="dps10">Intranet Developer</option>
+                <option value="dps11">Web Content Developer</option>
+                <option value="dps12">Web Designer</option>
+                <option value="dps13">Applications Programmer</option>
+                <option value="dps14">Computer Language Coder</option>
+                <option value="dps15">Computer Programmer</option>
+                <option value="dps16">Junior Software Developer</option>
+                <option value="dps17">Mainframe Programmer</option>
+                <option value="dps18">Systems Programmer</option>
+                <option value="dps19">Applications Analyst</option>
+                <option value="dps20">Computer Systems Analyst</option>
+            </select>
+            <div class="col-sm-4">
+              <input type="submit" class="btn btn-lg btn-custom-main btn-block text-uppercase" value="Go">
+            </div>
+          </div>
+          </form>
+
+      </div>
+    </div>
+  </main>
+  <section class="chart-container">
+    <canvas id="myChart"></canvas>
+  </section>
+  
+  <script type="text/javascript" src="js/advice.js"></script>
+
+</body>
+
+</html>
