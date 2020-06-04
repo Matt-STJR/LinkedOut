@@ -115,3 +115,4 @@ module.exports = function(sequelize, DataTypes) {
   
   return employers, jobAds, employees, jobs
 };
+module.exports = employers, jobAds, employees, jobs

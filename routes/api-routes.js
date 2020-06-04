@@ -33,18 +33,12 @@ module.exports = function(app) {
 
   // Route for getting the data about our user to be used client side
   app.get("/api/LinkedOut/user_data", function(req, res) {
-    if (!req.employers) {
-      res.json({});
-    } else {
-      res.json({
-        name: req.employers.name,
-        about: req.employers.about,
-        address: req.employers.address,
-        phone: req.employers.phone,
-        email: req.employers.email,
-        id: req.employers.id
-      });
-    }
+    employers.findOne({
+      where: {
+        id: 0,
+      }
+    }).then(function(result) {
+      return res.json(result);
   });
   // Route for getting a list of all the jobAds for the user to be used client side
   app.get("/api/LinkedOut/jobAds/:id", function(req, res) {

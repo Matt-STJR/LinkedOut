@@ -4,7 +4,8 @@ function getUser(){
     $.get("api/LinkedOut/user_data").then(function(data){
         employer = data,
         employerName = employer.name
-        getJobAds(employer)
+        employerid = employer.id
+        getJobAds(employerid)
     });
 };
 
