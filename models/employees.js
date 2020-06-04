@@ -1,6 +1,10 @@
 module.exports = function(sequelize, DataTypes) {
 var employees = sequelize.define("employees", {
+<<<<<<< Updated upstream
     job_id: {
+=======
+    jobId: {
+>>>>>>> Stashed changes
       type: DataTypes.INTEGER, //
       allowNull: false,
     },

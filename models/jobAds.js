@@ -1,11 +1,19 @@
 module.exports = function(sequelize, DataTypes) {
  
   var jobAds = sequelize.define("jobAds", {
+<<<<<<< Updated upstream
     emp_id: {
       type: DataTypes.INTEGER, //
       allowNull: false,
     },
     job_id: {
+=======
+    employerId: {
+      type: DataTypes.INTEGER, //
+      allowNull: false,
+    },
+    jobId: {
+>>>>>>> Stashed changes
       type: DataTypes.INTEGER, //
       allowNull: false,
     },
