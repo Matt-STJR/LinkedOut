@@ -1,5 +1,3 @@
-/* Seeds for SQL tables. */
-USE linkedout_db;
 
 /* Insert entries into employers table */
 

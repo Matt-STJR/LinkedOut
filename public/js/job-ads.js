@@ -10,7 +10,7 @@ function getUser(){
 };
 
 function getJobAds(){
-    $.get("api/LinkedOut/jobAds/:id").then(function(data){
+    $.get("api/LinkedOut/jobAds/1").then(function(data){
         jobAds = data,
         createJobAds(jobAds)
     });

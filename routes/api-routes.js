@@ -1,5 +1,9 @@
 // Requiring our models and passport as we've configured it
+<<<<<<< Updated upstream
 var db = require("../models/user.js");
+=======
+var db = require("../models/");
+>>>>>>> Stashed changes
 var passport = require("../config/passport");
 
 module.exports = function(app) {
