@@ -33,7 +33,7 @@ module.exports = function(app) {
 
   // Route for getting the data about our user to be used client side
   app.get("/api/LinkedOut/user_data", function(req, res) {
-    employers.findOne({
+    db.employers.findOne({
       where: {
         id: 0,
       }
@@ -42,7 +42,7 @@ module.exports = function(app) {
   });
   // Route for getting a list of all the jobAds for the user to be used client side
   app.get("/api/LinkedOut/jobAds/:id", function(req, res) {
-    jobAds.findAll({
+    db.jobAds.findAll({
       where: {
         emp_id: req.params.id,
         status: true
@@ -53,7 +53,7 @@ module.exports = function(app) {
   });
 
   app.get("api/LinkedOut/jobAds/info", function(req, res) {
-    jobs.findOne({
+    db.jobs.findOne({
       where: {
         id: req.JobAds.job_id,
       }
@@ -64,7 +64,7 @@ module.exports = function(app) {
 
   // Route for getting a list of all the employees that are compatible with the JobAd
   app.get("/api/LinkedOut/employeelist", function(req, res) {
-    employees.findAll({
+    db.employees.findAll({
       where: {
         job_id: req.jobAds.job_id
       }
@@ -72,4 +72,5 @@ module.exports = function(app) {
       return res.json(result);
     });
   });
+});
 };
