@@ -41,11 +41,7 @@ module.exports = function(app) {
       return res.json(result);
   });
   // Route for getting a list of all the jobAds for the user to be used client side
-<<<<<<< Updated upstream
-  app.get("/api/LinkedOut/jobAds/:id", function(req, res) {
-=======
   app.get("/api/LinkedOut/jobAds/1", function(req, res) {
->>>>>>> Stashed changes
     db.jobAds.findAll({
       where: {
         employerId: 1,
