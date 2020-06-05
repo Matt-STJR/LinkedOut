@@ -39,6 +39,7 @@ module.exports = function(app) {
       }
     }).then(function(result) {
       return res.json(result);
+    });
   });
 
   // Route for getting a list of all the jobAds for the user to be used client side
@@ -73,5 +74,21 @@ module.exports = function(app) {
       return res.json(result);
     });
   });
-});
+
+   // Route for getting the data the jobs requested to be used client side
+   app.get("/api/LinkedOut/contractors/jobs", function(req, res) {
+    db.jobs.findAll().then(function(result) {
+      return res.json(result);
+    });
+  });
+
+  app.get("/api/LinkedOut/contractors/:id", function(req, res) {
+    db.employees.findAll({
+      where: {
+        jobId: req.params.id,
+      }
+    }).then(function(result) {
+      return res.json(result);
+    });
+  });
 };
