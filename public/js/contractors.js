@@ -1,22 +1,21 @@
-getJob()  
+var jobOptionsForm = $(".jobOptionsForm");
 
-function getJob(){
-    $.get("api/LinkedOut/contractors/jobs").then(function(data){
-        
+jobOptionsForm.on("submit", function(event) {
+    event.preventDefault();
+    var jobName = $(".jobOptionsForm select").val()
+    console.log(jobName)
+    getJob(jobName)
+});
+
+
+function getJob(jobName){
+    $.get("api/LinkedOut/contractors/name/" + jobName).then(function(data){
         console.log(data);
-        jobs = data;
-
-        for (let i = 0; i < jobs.length; i++) {
-            jobName = jobs[i].title;
-            jobId = jobs[i].id;
-
-            var jobOption = $("<option>").text(jobName).attr("id", jobid);
-            $(".jobOptions").append(jobOption)
-        };
-       
+        jobid = data.id
+        console.log(jobid)
+        getEmployees(jobid)
     });
 };
-
 
 function getEmployees(jobid){
     $.get("api/LinkedOut/contractors/" + jobid).then(function(data){
@@ -49,7 +48,7 @@ function getEmployees(jobid){
             cardBody.append(employeeNameDisplay);
             cardBody.append(emailDisplay);
                 
-
+            console.log(cardBody)
             //2. Append the parent card to the HTML page
             $(".card-deck").append(cardBody);
             console.log(cardBody)
