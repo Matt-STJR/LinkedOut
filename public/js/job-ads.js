@@ -30,7 +30,6 @@ function createJobAds(jobId, employerName){
             var jobNameDisplay = $("<h5>").text(jobName).attr("class", "card-title");
             var hr = $("<hr>").attr("class", "my-4");
             var employerLabel = $("<p>").text("Project name: " + employerName).attr("class", "card-label");
-            var hr = $("<hr>").attr("class", "my-4");
 
             //Create the body area of the card for text to sit
            var cardBody= $("<div>").attr("class", "job-card-body");

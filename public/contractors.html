@@ -28,11 +28,11 @@
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="job-ads.html">Job Ads</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contractors
+          <li class="nav-item active">
+            <a class="nav-link" href="contractors.html">Contractors
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -49,56 +49,65 @@
     <div class="container h-100">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto v-center">
         <h1 class="page-title text-center">Contractors</h5>
+        <hr class="my-4">
+        <!--For selecting the jobs you want to search-->
+          <form class="jobOptionsForm">
+            <div class="row">
+              <select class="jobOptions custom-select col-sm-8" id="inputGroupSelect01">
+                <option>Select a job to view...</option>
+                <option id="1">Applications Analyst</option>
+                <option id="2">Applications Programmer</option>
+                <option id="3">Computer Language Coder</option>
+                <option id="4">Computer Network Engineer</option>
+                <option id="5">Computer Programmer</option>
+                <option id="6">Computer Systems Analyst</option>
+                <option id="7">Computer Systems Consultant</option>
+                <option id="8">Computer Systems Software Architect</option>
+                <option id="9">Computer Systems Software Engineer</option>
+                <option id="10">Data Processing Systems Analyst</option>
+                <option id="11">Embedded Systems Software Developer</option>
+                <option id="12">Enterprise Systems Engineer</option>
+                <option id="13">Information Systems Analyst</option>
+                <option id="14">Information Systems Planner</option>
+                <option id="15">Internet Application Developer</option>
+                <option id="16">Internet Developer</option>
+                <option id="17">Intranet Developer</option>
+                <option id="18">Junior Software Developer</option>
+                <option id="19">Senior Software Developer </option>
+                <option id="20">Mainframe Programmer</option>
+                <option id="21">Network Designer</option>
+                <option id="22">Network Developer</option>
+                <option id="23">Network Engineer</option>
+                <option id="24">Programmer Analyst</option>
+                <option id="25">Software Systems Engineer</option>
+                <option id="26">Systems Architect</option>
+                <option id="27">Systems Programmer</option>
+                <option id="28">Systems Software Designer</option>
+                <option id="29">Systems Software Specialist</option>
+                <option id="30">Web Content Developer</option>
+                <option id="31">Web Designer</option>
+                <option id="32">Web Developer</option>
+              </select>
+              <div class ="col-sm-4">
+                <button type="submit" class="btn btn-lg btn-custom-main btn-block text-uppercase">Search</button>
+              </div>
+            </div>
+          </form>
       </div>
     </div>
   </main>
   <section class="container">
-    <!--For selecting the jobs you want to search-->
-    <form class="jobOptionsForm">
-      <select class="jobOptions custom-select" id="inputGroupSelect01">
-        <option>Job...</option>
-        <option id="1">Applications Analyst</option>
-        <option id="2">Applications Programmer</option>
-        <option id="3">Computer Language Coder</option>
-        <option id="4">Computer Network Engineer</option>
-        <option id="5">Computer Programmer</option>
-        <option id="6">Computer Systems Analyst</option>
-        <option id="7">Computer Systems Consultant</option>
-        <option id="8">Computer Systems Software Architect</option>
-        <option id="9">Computer Systems Software Engineer</option>
-        <option id="10">Data Processing Systems Analyst</option>
-        <option id="11">Embedded Systems Software Developer</option>
-        <option id="12">Enterprise Systems Engineer</option>
-        <option id="13">Information Systems Analyst</option>
-        <option id="14">Information Systems Planner</option>
-        <option id="15">Internet Application Developer</option>
-        <option id="16">Internet Developer</option>
-        <option id="17">Intranet Developer</option>
-        <option id="18">Junior Software Developer</option>
-        <option id="19">Senior Software Developer </option>
-        <option id="20">Mainframe Programmer</option>
-        <option id="21">Network Designer</option>
-        <option id="22">Network Developer</option>
-        <option id="23">Network Engineer</option>
-        <option id="24">Programmer Analyst</option>
-        <option id="25">Software Systems Engineer</option>
-        <option id="26">Systems Architect</option>
-        <option id="27">Systems Programmer</option>
-        <option id="28">Systems Software Designer</option>
-        <option id="29">Systems Software Specialist</option>
-        <option id="30">Web Content Developer</option>
-        <option id="31">Web Designer</option>
-        <option id="32">Web Developer</option>
-      </select>
-      <button type="submit" class="btn btn-primary">Search</button>
-    </form>
     <div class="card-deck">
         <!-- Cards are inserted here -->
     </div>
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/contractors.js"></script>
-
+  <script>
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 300);
+    });
+   </script>
 </body>
 
 </html>

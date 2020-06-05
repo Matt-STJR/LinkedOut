@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <!-- Navigation -->
+ <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/"><img src="assets/logo.png" class="nav-logo"></a>
@@ -35,7 +35,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="members.html">Contractors</a>
+            <a class="nav-link" href="contractors.html">Contractors</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="advice.html">Advice</a>
@@ -90,7 +90,7 @@
                   </datalist>
             </div>
                 <div class="form-label-group">
-                  <textarea class="form-control" rows="5" id="inputJobDescription" placeholder="Job Description" required ></textarea>
+                  <textarea class="form-control custom-long-input" rows="5" id="inputJobDescription" placeholder="Job Description" required ></textarea>
                 </div>
                 <hr class="my-4">
                 <div class="row">
@@ -98,7 +98,7 @@
                     <button class="btn btn-lg btn-custom-main btn-block text-uppercase" type="submit">Create</button>
                   </div>
                   <div class="col-sm-5">
-                    <button class="btn btn-lg btn-custom-secondary btn-block text-uppercase" href="job-ads.html">Back</button>
+                    <a href="job-ads.html" class="btn btn-lg btn-custom-secondary btn-block text-uppercase">Back</a>
                   </div>
                 </div>
               </form>
@@ -109,6 +109,10 @@
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/add-jobads.js"></script>
-
+  <script>
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 300);
+    });
+   </script>
 </body>
 </html>
