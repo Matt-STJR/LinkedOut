@@ -25,7 +25,7 @@ const constDataSets = {
 
 // Config file
 var chartConfig = {
-  type: 'bar',
+  type: 'line',
   data: {
       labels: ['2016','2017','2018','2019','2020'],
       datasets: [{
