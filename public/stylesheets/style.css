@@ -42,6 +42,12 @@ bg-custom {
   width: 150px;
 }
 
+.scrolled {
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  transition: ease-in-out 0.3s;
+}
+
 :root {
   --input-padding-x: 1.5rem;
   --input-padding-y: .75rem;
@@ -197,4 +203,14 @@ bg-custom {
   letter-spacing: .1rem;
   padding: 0px;
   margin: 0px;
+}
+
+/* CSS for Job Ad and Contractor Cards */
+.job-card-body {
+  border: 0;
+  border-radius: 1rem;
+  width: 29%;
+  margin: 2%;
+  padding: 25px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
