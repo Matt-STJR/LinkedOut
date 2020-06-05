@@ -10,8 +10,8 @@ function getJob(){
             jobName = jobs[i].title;
             jobId = jobs[i].id;
 
-            var jobOption = $("<p>").text(jobName).attr("id", jobid);
-            $("").append(jobOption)
+            var jobOption = $("<option>").text(jobName).attr("id", jobid);
+            $(".jobOptions").append(jobOption)
         };
        
     });
