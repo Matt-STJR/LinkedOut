@@ -2,7 +2,6 @@ getUser()
 
 function getUser(){
     $.get("api/LinkedOut/user_data").then(function(data){
-        console.log(data)
         employerName = data.name
         employerid = data.id
         getJobAds(employerid, employerName)
@@ -12,7 +11,6 @@ function getUser(){
 
 function getJobAds(employerid, employerName){
     $.get("api/LinkedOut/jobAds/" + employerid).then(function(data){
-        console.log(data)
         jobAds = data;
         for (let i = 0; i < jobAds.length; i++) {
             
@@ -22,12 +20,10 @@ function getJobAds(employerid, employerName){
 };
 
 function createJobAds(jobId, employerName){
-    $.get("api/LinkedOut/jobAds/info/" + jobId).then(function(data){
-        console.log(data)
-        
+    $.get("api/LinkedOut/jobAds/info/" + jobId).then(function(data){        
 
             currentResult = data;
-            console.log("hi")
+            
             //Assign the response results into employer name and the job name/type
             jobName = currentResult.title;
             
@@ -51,6 +47,6 @@ function createJobAds(jobId, employerName){
 
             //2. Append the parent card to the HTML page
             $(".card-deck").append(cardBody);
-            console.log(cardBody)
+    
     });
 };

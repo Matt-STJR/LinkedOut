@@ -56,38 +56,39 @@ INSERT INTO employers (name, about, address, phone, email, pwd, createdAt, updat
 
 
 /* Insert entries into jobs table */
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Applications Analyst','Balsamiq, JIRA',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Applications Programmer','Github, Python',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Language Coder','Textmate, Sublime Text, JIRA, NetBeans',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Network Engineer','Wireshark, Nagios, Capsa',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Programmer','Rubber duck, Sublime Text',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Analyst','Sublime Text, JIRA, NetBeans',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Consultant','Textmate, Sublime Text, JIRA',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Software Architect','AutoCad, SketchUp, ArchiCAD',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Computer Systems Software Engineer','Eclipse, Visual Studio',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Data Processing Systems Analyst','Hadoop, Qubole',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Embedded Systems Software Developer','Eclipse, MATLAB, MPLAB',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Enterprise Systems Engineer','CAE Simulation, SCCM',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Information Systems Analyst','BizFluent, Trudera',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Information Systems Planner','SISP, TDAN',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Internet Application Developer','Angular.JS., Grunt, jQuery, Grunt',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Internet Developer','Bootstrap,  jQuery, Atom',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Intranet Developer','ThoughtFarmer, Beekeeper',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Junior Software Developer','Textmate, Sublime Text, HTML, CSS, JavaScript',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Senior Software Developer ','HTML, CSS, JavaScript, Jquery, Node, MONGODB',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Mainframe Programmer','COBOL, CLIST ',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Network Designer','eDraw. Visio, ConceptDraw Pro',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Network Developer','Radar, DevTool',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Network Engineer','Zabbix, Icinga',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Programmer Analyst','SQL, Python',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Software Systems Engineer','Innsolate, MagicDraw',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Architect','Unicom, Serrata',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Programmer','NetBeans, Python',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Software Designer','MATLAB, ZW3D, CATIA',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Systems Software Specialist','Asana, JiRA',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Web Content Developer','ColorZilla, Notepad++, AngularJS, Sublime Text',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Web Designer','Dreamweaver, Photoshop',now(),now())
-INSERT INTO jobs (title, skills,createdAt, updatedAt) values ('Web Developer','HTML, CSS',now(),now())
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Applications Analyst','Balsamiq, JIRA', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Applications Programmer','Github, Python', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Language Coder','Textmate, Sublime Text, JIRA, NetBeans', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Network Engineer','Wireshark, Nagios, Capsa', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Programmer','Rubber duck, Sublime Text', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Systems Analyst','Sublime Text, JIRA, NetBeans', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Systems Consultant','Textmate, Sublime Text, JIRA', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Systems Software Architect','AutoCad, SketchUp, ArchiCAD', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Computer Systems Software Engineer','Eclipse, Visual Studio', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Data Processing Systems Analyst','Hadoop, Qubole', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Embedded Systems Software Developer','Eclipse, MATLAB, MPLAB', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Enterprise Systems Engineer','CAE Simulation, SCCM', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Information Systems Analyst','BizFluent, Trudera', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Information Systems Planner','SISP, TDAN', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Internet Application Developer','Angular.JS., Grunt, jQuery, Grunt', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Internet Developer','Bootstrap,  jQuery, Atom', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Intranet Developer','ThoughtFarmer, Beekeeper', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Junior Software Developer','Textmate, Sublime Text, HTML, CSS, JavaScript', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Senior Software Developer ','HTML, CSS, JavaScript, Jquery, Node, MONGODB', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Mainframe Programmer','COBOL, CLIST ', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Network Designer','eDraw. Visio, ConceptDraw Pro', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Network Developer','Radar, DevTool', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Network Engineer','Zabbix, Icinga', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Programmer Analyst','SQL, Python', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Software Systems Engineer','Innsolate, MagicDraw', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Systems Architect','Unicom, Serrata', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Systems Programmer','NetBeans, Python', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Systems Software Designer','MATLAB, ZW3D, CATIA', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Systems Software Specialist','Asana, JiRA', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Web Content Developer','ColorZilla, Notepad++, AngularJS, Sublime Text', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Web Designer','Dreamweaver, Photoshop', now(), now());
+INSERT INTO jobs (title, skills, createdAt, updatedAt) values ('Web Developer','HTML, CSS', now(), now());
+
 
 /* Insert entries into employees table */
 
@@ -494,35 +495,34 @@ INSERT INTO employees (firstName,lastName,job_id, email, pwd, createdAt, updated
 
 /* Insert entries into jobsdata table */
 
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (1,1,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (2,2,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (3,2,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (4,1,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (5,35,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (6,1,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (7,34,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (8,1,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (9,1,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (10,2,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (11,3,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (12,3,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (13,4,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (14,6,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (15,7,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (16,7,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (17,8,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (18,8,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (19,8,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (20,8,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (21,4,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (22,9,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (23,1,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (24,2,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (25,3,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (26,4,0,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (27,23,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (28,34,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (29,25,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (30,27,1,now(),now())
-INSERT INTO jobads (job_id, emp_id, status, createdAt, updatedAt) values (31,26,1,now(),now())
-
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (1,1,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (2,2,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (3,2,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (4,1,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (5,35,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (6,1,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (7,34,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (8,1,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (9,1,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (10,2,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (11,3,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (12,3,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (13,4,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (14,6,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (15,7,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (16,7,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (17,8,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (18,8,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (19,8,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (20,8,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (21,4,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (22,9,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (23,1,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (24,2,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (25,3,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (26,4,0, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (27,23,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (28,34,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (29,25,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (30,27,1, now(), now());
+INSERT INTO jobAds (jobId, employerId, status, createdAt, updatedAt) values (31,26,1, now(), now());
