@@ -76,8 +76,12 @@ module.exports = function(app) {
   });
 
    // Route for getting the data the jobs requested to be used client side
-   app.get("/api/LinkedOut/contractors/jobs", function(req, res) {
-    db.jobs.findAll().then(function(result) {
+   app.get("/api/LinkedOut/contractors/name/:jobName", function(req, res) {
+    db.jobs.findOne({
+      where: {
+        title: req.params.jobName
+      }
+    }).then(function(result) {
       return res.json(result);
     });
   });
