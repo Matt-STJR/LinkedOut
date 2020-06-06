@@ -29,16 +29,18 @@
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="job-ads.html">Job Ads
-            <span class="sr-only">(current)</span>
+            
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="members.html">Contractors</a>
+          <a class="nav-link" href="contractors.html">Contractors</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="advice.html">Advice</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="advice.html">Advice
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
       </ul>
     </div>
@@ -48,13 +50,13 @@
   <!-- Main -->
   <main class="masthead-half">
     <div class="container h-100">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto v-center">
+      <div class="col-sm-11 col-md-9 col-lg-7 mx-auto v-center">
         <h1 class="page-title text-center">Advice</h5>
         <hr class="my-4">
           <form action="/action_page.php" class="col-sm-12" id="job-view">
             <div class="row">
             <label for="jobs" class="col-sm-2 custom-dropdown-label">View:</label>
-            <select name="jobs" id="dd" class="col-sm-6 custom-dropdown">
+            <select name="jobs" id="dd" class="col-sm-7 custom-dropdown">
             <option value="" selected="selected">Select a job</option>
                 <option value="dps1">Software Architect</option>
                 <option value="dps2">Software Engineer</option>
@@ -77,12 +79,11 @@
                 <option value="dps19">Applications Analyst</option>
                 <option value="dps20">Computer Systems Analyst</option>
             </select>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
               <input type="submit" class="btn btn-lg btn-custom-main btn-block text-uppercase" value="Go">
             </div>
           </div>
-          </form>
-
+        </form>
       </div>
     </div>
   </main>
@@ -91,7 +92,11 @@
   </section>
   
   <script type="text/javascript" src="js/advice.js"></script>
-
+  <script>
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 300);
+    });
+   </script>
 </body>
 
 </html>
