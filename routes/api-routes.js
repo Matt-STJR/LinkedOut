@@ -90,7 +90,7 @@ module.exports = function(app) {
   });
 
    // Route for getting the data the jobs requested to be used client side
-   app.get("/api/LinkedOut/contractors/name/", function(req, res) {
+   app.get("/api/LinkedOut/contractors/name/:jobName", function(req, res) {
     db.jobs.findOne({
       where: {
         title: req.params.jobName
