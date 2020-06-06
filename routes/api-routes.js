@@ -25,6 +25,17 @@ module.exports = function(app) {
       });
   });
 
+  app.post("/api/LinkedOut/add-jobAd/add", function(req, res) {
+    console.log(req.body);
+    db.jobs.create({
+      title: req.body.title,
+      skills: req.body.skills,
+    })
+      .then(function(dbPost) {
+        res.json(dbPost);
+      });
+  });
+
   // Route for logging user out
   app.get("/LinkedOut/logout", function(req, res) {
     req.logout();
@@ -42,13 +53,15 @@ module.exports = function(app) {
     });
   });
 
+  
+
   // Route for getting a list of all the jobAds for the user to be used client side
   app.get("/api/LinkedOut/jobAds/:id", function(req, res) {
     db.jobAds.findAll({
-      where: {
-        employerId: req.params.id,
-        status: true
-      }
+       where: {
+         //employerId: req.params.id,
+         //status: true
+       }
     }).then(function(result) {
       return res.json(result);
     });
@@ -76,7 +89,7 @@ module.exports = function(app) {
   });
 
    // Route for getting the data the jobs requested to be used client side
-   app.get("/api/LinkedOut/contractors/name/:jobName", function(req, res) {
+   app.get("/api/LinkedOut/contractors/name/", function(req, res) {
     db.jobs.findOne({
       where: {
         title: req.params.jobName
@@ -91,6 +104,26 @@ module.exports = function(app) {
       where: {
         jobId: req.params.id,
       }
+    }).then(function(result) {
+      return res.json(result);
+    });
+  });
+
+  app.get("/api/LinkedOut/add-jobAd/getNewJob/:createdAt", function(req, res) {
+    db.jobs.findOne({
+      where: {
+        createdAt: req.params.createdAt,
+      }
+    }).then(function(result) {
+      return res.json(result);
+    });
+  });
+
+  app.post("/api/LinkedOut/add-jobAd/createAd/:id", function(req, res) {
+    db.jobAds.create({
+      employerId: 1,
+      jobId: req.params.id,
+      status: true,
     }).then(function(result) {
       return res.json(result);
     });

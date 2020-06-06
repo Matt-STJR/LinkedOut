@@ -16,6 +16,14 @@
   background-repeat: no-repeat;
 }
 
+.white-border-box {
+  background-color: rgba(255, 255);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 38%;
+}
+
 .v-center {
   top: 50% !important;
   transform: translateY(-50%) !important;
@@ -32,6 +40,12 @@ bg-custom {
 
 .nav-logo {
   width: 150px;
+}
+
+.scrolled {
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  transition: ease-in-out 0.3s;
 }
 
 :root {
@@ -60,24 +74,35 @@ bg-custom {
 }
 
 .btn {
-  font-size: 80%;
+  font-size: 12pt;
   border-radius: 5rem;
   letter-spacing: .1rem;
-  font-weight: bold;
+  font-weight: 300;
   padding: 1rem;
   transition: all 0.2s;
 }
 
 .btn-custom-main {
-  font-size: large;
   color: #FFF;
   background-color: #484E5E;
+  border: 1px solid #484E5E;
+}
+
+.btn-custom-main:hover {
+  color: #484E5E;
+  background-color: #FFF;
 }
 
 .btn-custom-secondary {
-  font-size: large;
   color: #484E5E;
   background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
+.btn-custom-secondary:hover {
+  color: #484E5E;
+  background-color: whitesmoke;
+  border: 1px solid #484E5E;
 }
 
 .form-label-group {
@@ -189,4 +214,25 @@ bg-custom {
   letter-spacing: .1rem;
   padding: 0px;
   margin: 0px;
+}
+
+/* CSS for Job Ad and Contractor Cards */
+.job-card-body {
+  border: 0;
+  border-radius: 1rem;
+  width: 29%;
+  margin: 2%;
+  padding: 25px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+/* CSS for Contractors */
+.jobOptions {
+  border-radius: 2rem;
+  height: 60px;
+}
+
+/* CSS for Creating Job Ads */
+.custom-long-input {
+  border-radius: 1rem;
 }

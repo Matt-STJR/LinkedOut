@@ -39,9 +39,6 @@
           <li class="nav-item">
             <a class="nav-link" href="advice.html">Advice</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="advice.html">Advice</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -52,6 +49,8 @@
     <div class="container h-100">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto v-center">
         <h1 class="page-title text-center">Job Ads</h5>
+        <hr class="my-4">
+        <a href="add-jobads.html" class="btn btn-lg btn-custom-main btn-block text-uppercase">Create job</a> 
       </div>
     </div>
   </main>
@@ -62,6 +61,11 @@
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/job-ads.js"></script>
+  <script>
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 300);
+    });
+   </script>
 
 </body>
 
