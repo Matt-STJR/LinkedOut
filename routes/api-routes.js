@@ -62,6 +62,7 @@ module.exports = function(app) {
          //employerId: req.params.id,
          //status: true
        }
+
     }).then(function(result) {
       return res.json(result);
     });

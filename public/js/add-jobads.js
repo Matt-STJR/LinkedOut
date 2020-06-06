@@ -13,11 +13,13 @@ $(document).ready(function() {
   }
 
   // Getting jQuery references to the post body, title, form, and category select
+
   var skills = $("#inputJobDescription");
   var jobadsForm = $(".jobadsForm");
   var titleInput= $("#inputJobTitle");
   // Giving the titleInput a default value
   titleInput.val("");
+
   // Adding an event listener for when the form is submitted
   $(jobadsForm).on("submit", function handleFormSubmit(event) {
     event.preventDefault();
@@ -67,6 +69,7 @@ function createAd(id){
   // Gets post data for a post if we're editing
   function getPostData(id) {
     $.get("/api/LinkedOut/add-jobAd/get-data/" + id, function(data) {
+
       if (data) {
         // If this post exists, prefill our cms forms with its data
         skills.val(data.body);
